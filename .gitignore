@@ -1,0 +1,24 @@
+# Lokální přístupy a provozní konfigurace
+/.secrets/
+/.env
+/.env.*
+!/.env.example
+*.credential.xml
+/private/
+/server/config.local.php
+
+# Originální archiv a neveřejné důkazy (zálohovat samostatně)
+/archive/
+/artifacts/
+
+# Nástroje, závislosti a generované balíky budoucích fází
+/.tools/
+/.runtime/
+/node_modules/
+/server/vendor/
+/dist/
+/release/
+/coverage/
+*.log
+.DS_Store
+Thumbs.db

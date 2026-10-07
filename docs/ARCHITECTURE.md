@@ -1,6 +1,6 @@
 # Technické zadání budoucí implementace
 
-Stav: A3–A6 jsou dokončené v místním rozsahu. A6 přidala release builder, společnou public/private fixture a browser audit v osmi samostatných procesech, všechny PASS. Eleventy 3.1.6 je uzamčené v `package-lock.json`, PHPMailer 7.1.0 v `server/composer.lock`. Důkazy jsou v STATUS, FORM a CLAUDE-HANDOFF. B1 ani nasazení nezačaly.
+Stav: A3–A6, aplikace redesignu B1 a regresní kontrola B2 jsou dokončené v místním rozsahu. A6 přidala release builder, společnou public/private fixture a browser audit v osmi samostatných procesech; stejný nezměněný harness nad finální B2 prošel 8/8. B1 mění pouze CSS a atribut data-page společného layoutu; B2 doplňuje tři řádky CSS pro šířku formuláře a contain hover a cílený tests/browser_b2.py. Obsah, serverová rozhraní a technologie se nemění. Eleventy 3.1.6 je uzamčené v `package-lock.json`, PHPMailer 7.1.0 v `server/composer.lock`. Důkazy jsou v STATUS, FORM, B2-REVIEW a CLAUDE-HANDOFF, finální B2 readback v artifacts/b2. Vzhled B2-2026-10-07-ef779044 je schválený majitelkou prostřednictvím uživatele. C1 připravila MIGRATION, skutečný Seznam účet/DPAPI přístup a správce/návrh soukromí, vytvořila místní šifrovaný snímek a ověřila jeho kompletní obnovu do odděleného cíle. C1 BLOCKED pouze na potvrzení DNS/editace po Standardu. C2 ani nasazení nezačaly. Hashový readback C1 potvrzuje nezměněnou B2.
 
 ## Rozdělení souborů
 
@@ -47,11 +47,17 @@ Barvy, šířky, fonty a rozestupy jako samostatné CSS proměnné. Obsahové fr
 
 Fotografie mají rozměry, srcset a lazy loading mimo první viditelný obraz. Zvětšení odkazuje na lokální plnou variantu i bez JS. Lightbox, pokud vznikne, ovládání klávesnicí, Escape, návrat focusu a přístupné názvy.
 
+## Aktuální vzhled B1
+
+Aktuální vizuální vrstva B1 je dodaná varianta 1B Fotka: tmavá pozadí, teplý oranžový akcent, systémové písmo a Palatino/Georgia pro nadpisy. Původní fotografie a nativní mobilní details/summary zůstávají. Stránkové layouty vybírá atribut data-page; obsahové fragmenty neobsahují nové designové třídy. U fotografií s motivem u okraje a diplomů je contain bez zvětšování při hover. Výše uvedený světlý vzhled popisuje historický základ A3.
+
 ## Formulářové rozhraní A5
 
 `POST /api/contact.php`, standardní HTML formulář, application/x-www-form-urlencoded, bez příloh. Pole `name`, `email`, `message` a skryté `website`. Jméno a e-mail povinné. Povinnost zprávy zachovat podle skutečně archivovaného formuláře; v předběžném průzkumu povinná nebyla. Potichu ji nezpřísnit.
 
-Server omezuje velikost požadavku a polí, odmítá neplatný e-mail, pole typu array, hlavičkové řídicí znaky a jiné HTTP metody. Příjemce je pevný Seznam, nikdy parametr od návštěvníka. From je ověřená doménová adresa z neveřejné konfigurace; návštěvník patří do Reply-To. SMTP přístupy jsou pouze neveřejné.
+Server omezuje velikost požadavku a polí, odmítá neplatný e-mail, pole typu array, hlavičkové řídicí znaky a jiné HTTP metody. Příjemce je pevný Seznam, nikdy parametr od návštěvníka. Současná A5/B2 vyžaduje ověřený From na @imbolg-harmony.cz z neveřejné konfigurace; návštěvník patří do Reply-To. SMTP přístupy jsou pouze neveřejné.
+
+Provozní volba uživatele z 2026-10-07 mění budoucí konfiguraci: doména/DNS zůstanou u Webnode, web u Praktiku a From má být nový samostatný účet Seznam. Veřejná nápověda uvádí smtp.seznam.cz:465 s implicitním TLS a autentifikací. Ochrana v server/app/transport.php zatím Seznam From odmítne; její vymezená úprava, relevantní capture/negativní testy a nový release patří až do autorizované C2 podle [MIGRATION](MIGRATION.md) a [FORM](FORM.md). Pevný příjemce, validovaný Reply-To, TLS, zakázaný výchozí transport a rate limit zůstávají požadované. Seznam konfigurace není ověřená tímto popisem ani stávajícím B2 testem.
 
 Rate limit používá krátkodobý stav mimo DocumentRoot bez textů zpráv. Limit konfigurovatelný a zdůvodněný v A5. Nedůvěřovat libovolnému X-Forwarded-For. Chyby jsou české a s bezpečně escapovanými vstupy fungují bez JS. Chyba serveru nebo chybějící SMTP nesmí hlásit úspěch. SMTP úspěch znamená předání k odeslání, ne doložené doručení.
 
@@ -59,7 +65,7 @@ Výchozí produkční transport je zakázaný do dodání validní konfigurace. 
 
 ## Build a nasazení
 
-Build do dist kopíruje jen schválené veřejné soubory; ne celý projekt nebo server. Budoucí release má public a private. PHPMailer, aplikační kód a konfigurace jsou mimo DocumentRoot; přesné hostingové cesty ověřit v C1. Pokud to hosting neumožní, návrh bezpečného uložení předložit před uploadem, ne improvizovat s heslem ve veřejné složce.
+Build do dist kopíruje jen schválené veřejné soubory; ne celý projekt nebo server. Budoucí release má public a private. PHPMailer, aplikační kód a konfigurace jsou mimo DocumentRoot; konkrétní hostingové cesty dodá až samostatně objednaný účet, ověřit je v C2 před uploadem. Pokud to hosting neumožní, návrh bezpečného uložení předložit před uploadem, ne improvizovat s heslem ve veřejné složce.
 
 Kanonický sestavený strom, který se použije i v lokálním PHP testu:
 
@@ -78,10 +84,10 @@ release/
 
 Endpoint má relativní smlouvu načtení `dirname(__DIR__, 2) . '/private/app/bootstrap.php'`. Bootstrap pak načítá konfiguraci a autoloader z rodičovského private. Žádné hledání konfigurace ve veřejném adresáři a žádné předání absolutní cesty návštěvníkem.
 
-Nasazovací mapa: obsah release/public nahrát do potvrzeného DocumentRoot; obsah release/private do adresáře private vedle DocumentRoot pod stejným rodičem. Samotný webový adresář na hostingu se může jmenovat jinak než public, vzájemná poloha však musí zůstat stejná. C1 ověří přístup k oběma místům a absenci kolize s cizími soubory. Pokud host tuto polohu neumožňuje, C2 nesmí pokračovat bez konkrétně opravené a otestované mapy.
+Nasazovací mapa: obsah release/public nahrát do potvrzeného DocumentRoot; obsah release/private do adresáře private vedle DocumentRoot pod stejným rodičem. Samotný webový adresář na hostingu se může jmenovat jinak než public, vzájemná poloha však musí zůstat stejná. C1 připravila tuto mapu a bránu; přístup k oběma místům a absenci kolize s cizími soubory ověří první kroky samostatně autorizované C2 v konkrétním účtu. Pokud host tuto polohu neumožňuje, C2 nesmí pokračovat bez konkrétně opravené a otestované mapy.
 
 A5 a A6 testují stejný strom v oddělené lokální fixture přes společnou funkci populate v scripts/release_a6.py. DocumentRoot je výhradně public, config používá jen syntetický capture transport. A6 sestavuje release bez skutečných přístupů a bez testovacích zpráv; config.php pro produkci doplní až C2 bezpečně mimo veřejný prostor. Nejde o oprávnění balík v A6 nahrát. Builder porovná instalovaný PHP package name/version/reference s lockfilem, odmítá symlinky/junctions a nepřepisuje konfigurovaný release. Značka release/.generated-a6 nepatří do uploadu; manifest je mimo release v artifacts/a6.
 
-Produkční dist obsahuje .htaccess s Options -Indexes, DirectoryIndex index.html a ErrorDocument 404 /404.html, samostatnou 404 stránku s noindex, sitemap deseti obsahových URL a robots bez blokace veřejného obsahu. Testový tests/php_router_a6.php emuluje 404 pouze v lokálním PHP serveru a není v balíku. C1 musí na skutečném webserveru potvrdit povolení těchto direktiv, odpověď neznámé URL s HTTP 404 a vlastním tělem, nepřístupnost private a nepřítomnost directory listing. Browserová emulace sama podporu hostingu nedokazuje.
+Produkční dist obsahuje .htaccess s Options -Indexes, DirectoryIndex index.html a ErrorDocument 404 /404.html, samostatnou 404 stránku s noindex, sitemap deseti obsahových URL a robots bez blokace veřejného obsahu. Testový tests/php_router_a6.php emuluje 404 pouze v lokálním PHP serveru a není v balíku. C1 zjistila veřejné varování Gigaserveru před Options s možným HTTP 500; konkrétní nutnost úpravy dosud neověřená a schválený B2 se nemění. MIGRATION určuje první hostovací test po samostatné autorizaci C2: povolení direktiv, vlastní HTTP 404, nepřístupnost private a nepřítomnost výpisu složek musí být prokázané před DNS. Odstranění Options -Indexes vyžaduje nejprve doložené vypnutí AutoIndex na úrovni hostingu a stejný test. Browserová emulace sama podporu hostingu nedokazuje.
 
 Limit 80 MB zahrnuje celý skutečně nahrávaný balík včetně PHP závislostí. Originální archiv na hosting nepatří. Kanonický host je `https://www.imbolg-harmony.cz`. Náhled chránit před indexací, produkční release nesmí omylem obsahovat náhledové noindex nebo blokující robots.

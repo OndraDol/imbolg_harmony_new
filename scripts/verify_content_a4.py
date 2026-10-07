@@ -1,4 +1,4 @@
-"""Check built A4 content against the untouched A2 archive and evidence."""
+"""Check content against untouched A2 with individually authorized text changes."""
 
 from __future__ import annotations
 
@@ -21,6 +21,17 @@ SOURCE_MAP = json.loads((ROOT / "evidence/source-map.json").read_text(encoding="
 BASE = "https://www.imbolg-harmony.cz"
 errors = []
 
+# Owner feedback supplied by the user on 2026-10-07; implementation and Pages
+# publication explicitly authorized. Never replace the independent A2 evidence.
+APPROVED_TEXT_CHANGES = {
+    "feny-node-010": {
+        "path": "/feny/",
+        "block_id": "feny-block-002",
+        "before": "BZ: 4x I. cena, CACT, res.CACT, Klubový vítěz\u00a0",
+        "after": "BZ: 5x I. cena, CACT, res.CACT, Klubový vítěz\u00a0",
+    },
+}
+
 
 def check(condition: bool, message: str) -> None:
     if not condition:
@@ -33,6 +44,16 @@ def hash_of(path: Path) -> str:
 
 def norm(value: str) -> str:
     return re.sub(r"\s+", " ", value.replace("\u00a0", " ")).strip()
+
+
+def approved_expected_text(value: str, changes: list[dict], label: str) -> str:
+    """Apply exact changes to expected text only, rejecting a changed baseline."""
+    text = norm(value)
+    for change in changes:
+        before, after = norm(change["before"]), norm(change["after"])
+        check(text.count(before) == 1, f"{label}: schválená změna nemá právě jeden původní výskyt.")
+        text = text.replace(before, after, 1)
+    return text
 
 
 def image_urls(medium: dict) -> dict:
@@ -102,19 +123,31 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
     check(len(mapped.get("text_nodes", [])) == len(page["text_nodes"]), f"{route}: mapa textových uzlů není úplná.")
     actual_nodes = main.select("[data-content-id]")
     expected_ids = [n["id"] for n in page["text_nodes"]]
+    changes = {node_id: change for node_id, change in APPROVED_TEXT_CHANGES.items()
+               if change["path"] == route}
+    for node_id, change in changes.items():
+        source_nodes = [n for n in page["text_nodes"] if n["id"] == node_id]
+        check(len(source_nodes) == 1 and source_nodes[0]["raw_text"] == change["before"],
+              f"{node_id}: původní text schválené změny neodpovídá A2.")
+        check(sum(b["id"] == change["block_id"] for b in page["content_blocks"]) == 1,
+              f"{node_id}: původní blok schválené změny není jednoznačný.")
     check([n.get("data-content-id") for n in actual_nodes] == expected_ids,
           f"{route}: textové uzly chybí nebo mají jiné pořadí.")
     for actual, expected in zip(actual_nodes, page["text_nodes"]):
-        check(norm(actual.get_text()) == norm(expected["raw_text"]), f"{expected['id']}: rozdíl textu.")
+        target_text = changes.get(expected["id"], {}).get("after", expected["raw_text"])
+        check(norm(actual.get_text()) == norm(target_text), f"{expected['id']}: rozdíl textu.")
     actual_blocks = main.select("[data-block-id]")
     expected_blocks = page["content_blocks"]
     check([b.get("data-block-id") for b in actual_blocks] == [b["id"] for b in expected_blocks],
           f"{route}: editorové bloky chybí nebo mají jiné pořadí.")
     for actual, expected in zip(actual_blocks, expected_blocks):
-        check(norm(actual.get_text("\n")) == norm(expected["text"]), f"{expected['id']}: rozdíl bloku.")
+        block_changes = [c for c in changes.values() if c["block_id"] == expected["id"]]
+        target_text = approved_expected_text(expected["text"], block_changes, expected["id"])
+        check(norm(actual.get_text("\n")) == target_text, f"{expected['id']}: rozdíl bloku.")
 
     original_main = BeautifulSoup((ROOT / Path(page["archive"]["rendered_dom"])).read_text(encoding="utf-8"), "html.parser").find("main")
-    check(norm(main.get_text(" ")) == norm(original_main.get_text(" ")),
+    target_main = approved_expected_text(original_main.get_text(" "), list(changes.values()), route)
+    check(norm(main.get_text(" ")) == target_main,
           f"{route}: celkový viditelný text main se liší od A2.")
     expected_images = page["image_occurrences"]
     actual_images = soup.select("img[data-media-order]")
@@ -202,6 +235,8 @@ def main() -> int:
     check(SOURCE_MAP.get("source_snapshot") == "archive/2026-10-06T13-40-23Z",
           "source-map: jiný snímek A2.")
     check(set(mapped_pages) == {p["path"] for p in PAGES}, "source-map: chybí stránka nebo přebývá jiná.")
+    check({c["path"] for c in APPROVED_TEXT_CHANGES.values()} <= {p["path"] for p in PAGES},
+          "Schválená textová změna míří na chybějící stránku.")
     verify_media(dist, mapped_media)
     for page in PAGES:
         verify_page(page, mapped_pages.get(page["path"], {}), dist, media_by_id, media_by_url)
@@ -210,7 +245,7 @@ def main() -> int:
               "occurrences": sum(len(m["occurrences"]) for m in MEDIA),
               "gallery_items": sum(len(g["items"]) for p in PAGES for g in p["galleries"]),
               "links": sum(len(p["links"]) for p in PAGES)}
-    print(json.dumps({**counts, "errors": errors}, ensure_ascii=False, indent=2))
+    print(json.dumps({**counts, "approved_text_changes": list(APPROVED_TEXT_CHANGES), "errors": errors}, ensure_ascii=False, indent=2))
     return 1 if errors else 0
 
 

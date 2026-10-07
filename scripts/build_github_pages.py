@@ -107,7 +107,7 @@ def main():
         files_under(OUTPUT)  # Refuse linked content before deleting this generated directory.
         if OUTPUT.resolve() != ROOT / "artifacts/github-pages/preview/imbolg_harmony_new":
             raise ValueError("Unexpected cleanup target")
-        shutil.rmtree(OUTPUT)
+        shutil.rmtree(OUTPUT, onexc=lambda function, path, error: (Path(path).chmod(0o700), function(path)))
     OUTPUT.mkdir(parents=True)
     for path in source_files:
         relative = path.relative_to(SOURCE)

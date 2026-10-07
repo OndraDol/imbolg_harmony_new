@@ -10,7 +10,7 @@ Kontaktní formulář má viditelné upozornění a mailto:kralovamarket@seznam.
 
 ## Sestavení a ověření
 
-`npm run verify:pages` vždy nejprve sestaví aktuální Eleventy zdroje a oddělený Pages výstup. Potom provede nezměněné A3/A4 kontroly proti původní evidenci a nové porovnání celého HTML/assetů s dist. Nová kontrola dovoluje pouze uvedené technické změny a doplnění stavu formuláře; původní kontrolní základ se nemění. Výstup je v artifacts/github-pages/preview/imbolg_harmony_new, manifest a receipty mimo publikovaný strom v artifacts/github-pages.
+`npm run verify:pages` vždy nejprve sestaví aktuální Eleventy zdroje a oddělený Pages výstup. Potom provede A3 a A4 kontroly proti původní evidenci a porovnání celého HTML/assetů s dist. A4 od 2026-10-07 přijímá jedinou výslovně autorizovanou obsahovou změnu feny-node-010: BZ 4x → 5x I. cena. Kontroluje celé původní a nové znění uzlu, odpovídající blok i main; archiv/evidence se nepřepisují. Pages porovnání dovoluje pouze uvedené technické změny a doplnění stavu formuláře. Výstup je v artifacts/github-pages/preview/imbolg_harmony_new, manifest a receipty mimo publikovaný strom v artifacts/github-pages. Úklid ověřeného generovaného exportu podporuje i read-only položky na Windows.
 
 `python scripts/prepare_github_pages.py` pouze připraví místní gh-pages commit. Použije oddělený Git index, předem ověří úspěšnou kontrolu i každý veřejný soubor a porovná přesné Git blob hashe se schváleným manifestem. Nezahrnuje hlavní pracovní index. První commit je bez rodiče, další navazuje na místní gh-pages. Neprovádí push, neobjednává služby a nekonfiguruje hosting. Budoucí publikaci provést jen na výslovné zadání; bez force push.
 

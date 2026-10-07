@@ -2,6 +2,10 @@
 
 Návrh není schválení změny. Při A4 i B1 texty zůstávají doslovné. A2 doplní konkrétní ID a citace sporných bloků.
 
+## Dodatečně schválené připomínky 2026-10-07
+
+Uživatel výslovně objednal realizaci připomínek majitelky včetně GitHub Pages: celá obdélníková fotografie v záhlaví široká 112 px, odstranění čáry nad zdravotními testy Amy a přesná obsahová změna feny-node-010 z „BZ: 4x I. cena, CACT, res.CACT, Klubový vítěz“ na „BZ: 5x I. cena, CACT, res.CACT, Klubový vítěz“. Původní A2 archiv/evidence se nemění; jednotlivá odchylka je kontrolovaná ve verify_content_a4.py. Stav implementace a důkazy určuje STATUS/WORKLOG. Ostatní návrhy níže tím nejsou schválené.
+
 ## Součást technické kopie
 
 Menší hlavička, čitelná sazba, přehledné rozestupy, kompletní mobilní menu, viditelný focus, responzivní fotografie, přístupné zvětšení galerií, klikací telefon/e-mail, srozumitelné chyby formuláře, zachování URL a metadat. Finální estetiku řeší Claude.

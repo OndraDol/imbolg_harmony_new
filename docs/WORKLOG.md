@@ -846,3 +846,38 @@ Zbývá commit/push těchto šesti souborů a čerstvé porovnání main/gh-page
 ## 2026-10-07 / Pages / dokumentační push ověřený
 
 Závěrečný commit df158f349054a45abba207311282b736b4e846fb obsahuje právě šest oznámených souborů. git push origin main uspěl, čerstvý ls-remote potvrzuje stejný celý main hash a nezměněný veřejný gh-pages 65b49c898fe8b3c628a69e721470839ea60d5577. Tento záznam ukládá skutečný výsledek předchozí dávky; jeho vlastní technická uzávěrka a závěrečný čistý Git stav mají strojový receipt artifacts/github-pages/final-git-readback.json. Neprovádí se další public deploy, změna služby ani testovací zpráva. Pages a C1 DONE, C2 TODO; žádný další autorizovaný věcný krok není otevřený.
+
+
+## 2026-10-07 / Připomínky / zahájení a hranice
+
+Uživatel objednal implementaci schváleného plánu včetně commit/push a zveřejnění na GitHub Pages. Fotografie bude celá a obdélníková, široká 112 px; odstranit pouze čáru nad zdravotními testy Amy a změnit BZ ze 4x na 5x I. cenu. Ověřený absolutní kořen projektu a čistý Git stav, místní main i vzdálený origin/main 5c67bafd13d8b6307c4eeaa6f199d14f38e249ac a gh-pages 65b49c898fe8b3c628a69e721470839ea60d5577. Načtené AGENTS a aktuální zdroje/verifikátory, skilly ondra-delivery-loop a webapp-testing; dříve načtená projektová dokumentace a runbooky médií/externích systémů zůstávají použité. První společný dokumentační patch selhal na chybném nadpisu WORKLOG; čerstvý Git diff potvrdil žádné změny. Následuje cílená oprava, kontrola přesné obsahové výjimky a všech stránek. Formulář zůstane neaktivní, C2 ani doména/pošta se nemění.
+
+
+## 2026-10-07 / Připomínky / implementace a zachování podkladů
+
+Upravené pouze CSS záhlaví na šířku 7rem a automatickou výšku bez ořezu, odpovídající sizes v header.njk, cílená hranice/odsazení u zdravotních testů Amy a jediný údaj BZ 4x → 5x v pages.json. verify_content_a4.py má přesně vymezenou výjimku pro /feny/, feny-node-010 a feny-block-002: kontroluje původní celé znění A2 a očekávané nové znění uzlu, bloku i main; jiné údaje nepovoluje. Git diff --check prošel. Předchozí čtyři Pages receipty zachované v artifacts/feedback-2026-10-07/before, SHA-256 všech evidence JSON uložené do baseline-hashes.json. Žádný obrázek, archiv nebo evidence nebyly změněné. Následuje sestavení a místní verifikace, negativní obsahové kontroly a browser.
+
+
+## 2026-10-07 / Připomínky / obsah PASS a oprava Windows exportu
+
+Eleventy build uspěl, A3 ověřila deset URL/menu/metadat a A4 všech 78 textových uzlů, 46 bloků, 47 médií, 83 výskytů, 26 galerijních položek a 179 odkazů bez chyby, s jedinou schválenou změnou feny-node-010. verify:pages se zastavil při úklidu starého generovaného exportu: WinError 5 na prázdném assets/css s atributem ReadOnly; nejde o chybu obsahu. Přesný cíl je uvnitř artifacts/github-pages/preview/imbolg_harmony_new, bez reparse. Načtený ondra-debugging. build_github_pages.py dostal stejnou onexc obsluhu jako stávající release_a6.py: po stávajícím ověření celého stromu zruší read-only atribut pouze u neúspěšně mazané generované položky a opakuje tuto operaci. Přístupy ani nesouvisející cesty se neuvolňují. Následuje opakování pouze neúspěšného exportu a jeho verifikace; A3/A4 úspěšné výsledky zůstávají platné.
+
+
+## 2026-10-07 / Připomínky / statický export a negativní obsahové kontroly
+
+Opravený export a místní Pages verifier uspěly: 148 souborů / 49 903 798 B, deset stránek + 404, neaktivní formulář, identita 3594498e1a33b9c8c00e7189b4f911b1bf2b24f20132e73dfa70a81d23c337c8. Generovaná kopie přesně odpovídá dist s původně autorizovanými technickými Pages úpravami. Čtyři negativní scénáře v oddělené dočasné kopii dist odmítly 4x, 6x, nepovolený titul ve stejném uzlu i nepovolenou změnu jiného výsledku; artifacts/feedback-2026-10-07/content-negatives.json PASS. Všechny evidence JSON mají stejné SHA-256 jako před implementací. Žádný skutečný SMTP transport se nespouští. Kanonický místní release má 239 souborů / 50 430 762 B a package_sha256 1870b29056218cb57027b5f34a7887cd7e9c99b8b6f90c625df286bfc492f023. Běží cílená kontrola Pages a plná stávající A6 regrese; následuje osobní prohlídka snímků.
+
+
+## 2026-10-07 / Připomínky / vizuální nález a oprava zvětšení
+
+Osobně prohlédnuté skutečné místní snímky Feny 360/1440 px, otevřeného menu 390 px a záhlaví při 200% textu. Běžný vzhled, celá fotografie, BZ 5x a vazba testů Amy jsou správné. Při 200% textu se název lámal po jednotlivých písmenech: dřívější min-width:0 / overflow-wrap:anywhere se zvětšenou fotografií ponechávalo příliš úzký textový sloupec. Nejde o dokončený výsledek, i když geometrie a první dvě A6 skupiny prošly. Probíhající A6 i cílené kontroly ukončené před změnou zdrojů; čerstvý výpis nenašel žádný jejich Python/PHP proces. Upravené pouze flex zalamování značky a minimální šířka celého slova: na úzkém/zvětšeném výřezu přejde název pod fotografii. Cílená kontrola nově požaduje jediný řádkový fragment každého slova. Následuje nový build/Pages export a kontroly dotčeného finálního CSS; předchozí browserové výsledky jsou pouze částečné.
+
+
+## 2026-10-07 / Připomínky / finální vykreslení a oprava testovacího postupu
+
+Osobně prohlédnuté finální skutečné snímky všech čtyř šířek a 360 px při 200% textu i zoomu: celé slovo Imbolg a Harmony se správně zalamuje pod celou fotografii, běžný mobil/desktop zachovává název vedle snímku. Finální Pages export/verifier PASS, 148 souborů / 49 903 817 B, identita 70f19ad2a7c331a7ea5d765676d22d0161a7720d2e6c3c4843f3fbdabbfbe5d8. Plný A6 běží dvěma izolovanými původními skupinovými procesy současně, všechny čtyři skupiny s JS prošly; testy ani kritéria se nemění. Cílený pomocný test se opakovaně zastavil na vložení stylu přes add_style_tag v kontextu bez JS po úspěšném normal režimu. Ukončený pouze tento pomocný proces; změněný testovací postup na podávání rozšířeného CSS přes route, shodně se stávajícím browser_a6. Produktové soubory se při této opravě testu neměnily. Následuje dokončení no-JS skupin a pomocných scénářů, potom commit/push.
+
+
+## 2026-10-07 / Připomínky / finální místní PASS
+
+Finální stávající A6 kontrola prošla všech osm izolovaných skupin, 160 stránkových scénářů, 16 syntetických formulářových scénářů, 456 obrazových výskytů a 208 otevření plných galerií. Žádná nečekaná console/page/network chyba. Přesná identita zdrojů/evidence/dist/vendor 8690087cf26dbe0e55311797dacb23fc5d7e08eca9db2961b73aafedbe18db03; kopie výsledku artifacts/feedback-2026-10-07/a6-browser-results.json. Pomocná Pages kontrola po změně podávání CSS prošla všech 24 režimů (čtyři šířky, JS on/off, normal/text200/zoom200), osm kontrol neaktivního formuláře, obdélníkový snímek 112 × přibližně 149 px bez ořezu, nerozdělená slova značky, menu a vazbu zdravotních testů Amy; local-browser.json a osobně prohlédnuté PNG. Zdrojový obsah se od HEAD liší pouze přesným BZ 4x → 5x, nezměněné hashe evidence potvrzené. Git diff --check bez chyby. Následuje commit právě devíti potřebných zdrojových/dokumentačních souborů, příprava ověřené větve gh-pages, normální push a živá kontrola. Místní PASS ještě neznamená nasazení.

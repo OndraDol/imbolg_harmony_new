@@ -1,0 +1,3911 @@
+{
+  "snapshot": "archive\\2026-10-06T13-40-23Z",
+  "media": [
+    {
+      "id": "media-001",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036.jpg",
+            "bytes": 720903,
+            "sha256": "739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000070-cfa7ccfa7e/700/20241016_111208.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000070-cfa7ccfa7e/700/20241016_111208.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/114fd2eb940ce103e6d45a1d0ee87394e8bee6cc85dd7059d1539e8290bf3cad.webp",
+            "bytes": 128316,
+            "sha256": "114fd2eb940ce103e6d45a1d0ee87394e8bee6cc85dd7059d1539e8290bf3cad",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000070-cfa7ccfa7e/450/20241016_111208.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000070-cfa7ccfa7e/20241016_111208.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000070-cfa7ccfa7e/20241016_111208.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/781abeed0c1520b088ba085d5689fe34530807199078bfabbc9b32eab8a3a005.webp",
+            "bytes": 512808,
+            "sha256": "781abeed0c1520b088ba085d5689fe34530807199078bfabbc9b32eab8a3a005",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036.jpg",
+        "bytes": 720903,
+        "sha256": "739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/o-nas/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/sluzby/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/nase-prace/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 18,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 17,
+          "caption": ""
+        },
+        {
+          "page": "/cenik/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/kontakt/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/vrh-a/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/feny/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        },
+        {
+          "page": "/psi/",
+          "kind": "img",
+          "order": 1,
+          "alt": "",
+          "loading": null,
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000066-68aad68ab0/20241016_111208.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" class=\"wnd-logo-img\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-002",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000030-839d6839d7/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000030-839d6839d7/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000030-839d6839d7/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/4c50ab17316fef5f4da8503dad866b0fbf65fc3422c72ccd6e03966e91464c7d.jpg",
+            "bytes": 406227,
+            "sha256": "4c50ab17316fef5f4da8503dad866b0fbf65fc3422c72ccd6e03966e91464c7d",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1495
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000031-814798147b/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000031-814798147b/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/bcaa7bd05e9b5b8d9dcc1063e8c46b55ed8a6be06aadd550653d583701d31bee.webp",
+            "bytes": 127664,
+            "sha256": "bcaa7bd05e9b5b8d9dcc1063e8c46b55ed8a6be06aadd550653d583701d31bee",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1495
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000031-814798147b/450/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000031-814798147b/700/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000030-839d6839d7/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/4c50ab17316fef5f4da8503dad866b0fbf65fc3422c72ccd6e03966e91464c7d.jpg",
+        "bytes": 406227,
+        "sha256": "4c50ab17316fef5f4da8503dad866b0fbf65fc3422c72ccd6e03966e91464c7d",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1495
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_33681760093206339191_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000030-839d6839d7/3b3bf986-3c2b-4812-be21-108d8affff53_20251008_152625_0000.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1495\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-003",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000032-6e4b16e4b2/FB_IMG_1759862029808.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000032-6e4b16e4b2/FB_IMG_1759862029808.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000032-6e4b16e4b2/FB_IMG_1759862029808.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/d908293034a767c82aac80b19b3fcc83c6aa059c502d37baa6022bbdc964b99f.jpg",
+            "bytes": 1192210,
+            "sha256": "d908293034a767c82aac80b19b3fcc83c6aa059c502d37baa6022bbdc964b99f",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000033-ef8d2ef8d3/FB_IMG_1759862029808.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000033-ef8d2ef8d3/FB_IMG_1759862029808.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/2dc2aeb8d064be6429b82a2f7bb977004e66c719880fbc6695552e69e598bf58.webp",
+            "bytes": 1009480,
+            "sha256": "2dc2aeb8d064be6429b82a2f7bb977004e66c719880fbc6695552e69e598bf58",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000033-ef8d2ef8d3/450/FB_IMG_1759862029808.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000033-ef8d2ef8d3/700/FB_IMG_1759862029808.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000032-6e4b16e4b2/FB_IMG_1759862029808.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/d908293034a767c82aac80b19b3fcc83c6aa059c502d37baa6022bbdc964b99f.jpg",
+        "bytes": 1192210,
+        "sha256": "d908293034a767c82aac80b19b3fcc83c6aa059c502d37baa6022bbdc964b99f",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1440
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 3,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_77881760093209435835_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000032-6e4b16e4b2/FB_IMG_1759862029808.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1440\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-004",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000072-ac68cac68e/20250928_183629.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000072-ac68cac68e/20250928_183629.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000072-ac68cac68e/20250928_183629.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/ee2a745bc8f5670a985dfe47becc8cdbc776bc40bc62723fa5b777465ce7d06f.jpg",
+            "bytes": 1786116,
+            "sha256": "ee2a745bc8f5670a985dfe47becc8cdbc776bc40bc62723fa5b777465ce7d06f",
+            "format": "JPEG",
+            "dimensions": [
+              1651,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000073-5e1535e155/450/20250928_183629.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000073-5e1535e155/450/20250928_183629.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/5536e874933f7931d4a2898421eda7b01bbf5066d47849442a02fd6a92872bde.webp",
+            "bytes": 107818,
+            "sha256": "5536e874933f7931d4a2898421eda7b01bbf5066d47849442a02fd6a92872bde",
+            "format": "WEBP",
+            "dimensions": [
+              387,
+              450
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000073-5e1535e155/700/20250928_183629.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000073-5e1535e155/20250928_183629.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000073-5e1535e155/20250928_183629.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/a759cfa8fef20ec70b08ba7104cfb286dc7ee0697dd9ceb99d89ec016c03bfbb.webp",
+            "bytes": 1572574,
+            "sha256": "a759cfa8fef20ec70b08ba7104cfb286dc7ee0697dd9ceb99d89ec016c03bfbb",
+            "format": "WEBP",
+            "dimensions": [
+              1651,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000072-ac68cac68e/20250928_183629.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/ee2a745bc8f5670a985dfe47becc8cdbc776bc40bc62723fa5b777465ce7d06f.jpg",
+        "bytes": 1786116,
+        "sha256": "ee2a745bc8f5670a985dfe47becc8cdbc776bc40bc62723fa5b777465ce7d06f",
+        "format": "JPEG",
+        "dimensions": [
+          1651,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 4,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000072-ac68cac68e/20250928_183629.jpeg?ph=454501af52\" alt=\"\" width=\"1651\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 1651 / 1920;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 1,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-005",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000075-c2259c225b/DSCN5248-1.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000075-c2259c225b/DSCN5248-1.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000075-c2259c225b/DSCN5248-1.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/4a108e88c4b0fe1b3015d56c4d9241a142b2fdf1bd566d58a31f3382a94b68d5.jpg",
+            "bytes": 851099,
+            "sha256": "4a108e88c4b0fe1b3015d56c4d9241a142b2fdf1bd566d58a31f3382a94b68d5",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000078-26ba126ba3/450/DSCN5248-1.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000078-26ba126ba3/450/DSCN5248-1.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/325e68324c61c83432f99051ad0e6acf4cb6f2a781adac1bfbb823bf96d53e77.webp",
+            "bytes": 64392,
+            "sha256": "325e68324c61c83432f99051ad0e6acf4cb6f2a781adac1bfbb823bf96d53e77",
+            "format": "WEBP",
+            "dimensions": [
+              338,
+              450
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000078-26ba126ba3/700/DSCN5248-1.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000078-26ba126ba3/DSCN5248-1.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000078-26ba126ba3/DSCN5248-1.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/d73782fb5bfb2172dea55db98a64186bdadf7b8b45348457ed6f2ded0beb7f75.webp",
+            "bytes": 670902,
+            "sha256": "d73782fb5bfb2172dea55db98a64186bdadf7b8b45348457ed6f2ded0beb7f75",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000075-c2259c225b/DSCN5248-1.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/4a108e88c4b0fe1b3015d56c4d9241a142b2fdf1bd566d58a31f3382a94b68d5.jpg",
+        "bytes": 851099,
+        "sha256": "4a108e88c4b0fe1b3015d56c4d9241a142b2fdf1bd566d58a31f3382a94b68d5",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 5,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000075-c2259c225b/DSCN5248-1.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 2,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-006",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000076-1f8ff1f901/20250920_141055.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000076-1f8ff1f901/20250920_141055.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000076-1f8ff1f901/20250920_141055.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/41837faf1f600f64a40561545e25ba03a1931653427bbb9033ec05ae6c9f02fd.jpg",
+            "bytes": 676519,
+            "sha256": "41837faf1f600f64a40561545e25ba03a1931653427bbb9033ec05ae6c9f02fd",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000080-7c4d57c4d7/700/20250920_141055.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000080-7c4d57c4d7/700/20250920_141055.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/e8c61dbcc185d730b907e00456918ecced080a0498e3c3da05d06e39baad4596.webp",
+            "bytes": 102472,
+            "sha256": "e8c61dbcc185d730b907e00456918ecced080a0498e3c3da05d06e39baad4596",
+            "format": "WEBP",
+            "dimensions": [
+              394,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000080-7c4d57c4d7/450/20250920_141055.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000080-7c4d57c4d7/20250920_141055.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000080-7c4d57c4d7/20250920_141055.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/acad4aeea089cb356460183e453b9ef5ea5f0d1fa5e097aea09469479c484dc7.webp",
+            "bytes": 542052,
+            "sha256": "acad4aeea089cb356460183e453b9ef5ea5f0d1fa5e097aea09469479c484dc7",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000076-1f8ff1f901/20250920_141055.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/41837faf1f600f64a40561545e25ba03a1931653427bbb9033ec05ae6c9f02fd.jpg",
+        "bytes": 676519,
+        "sha256": "41837faf1f600f64a40561545e25ba03a1931653427bbb9033ec05ae6c9f02fd",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 6,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000076-1f8ff1f901/20250920_141055.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 9 / 16;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 3,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-007",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000074-a30d0a30d2/20250911_124305.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000074-a30d0a30d2/20250911_124305.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000074-a30d0a30d2/20250911_124305.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/77fc49014094c26c0fb37760459d8169fa7dc8501d303079358ab91e1346a34e.jpg",
+            "bytes": 564876,
+            "sha256": "77fc49014094c26c0fb37760459d8169fa7dc8501d303079358ab91e1346a34e",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000077-c0c5fc0c60/700/20250911_124305.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000077-c0c5fc0c60/700/20250911_124305.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/ee51eb45b17194f547a8c9f3366dfd40fc0da27fab72fceb016c3e75f9896e18.webp",
+            "bytes": 90772,
+            "sha256": "ee51eb45b17194f547a8c9f3366dfd40fc0da27fab72fceb016c3e75f9896e18",
+            "format": "WEBP",
+            "dimensions": [
+              394,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000077-c0c5fc0c60/450/20250911_124305.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000077-c0c5fc0c60/20250911_124305.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000077-c0c5fc0c60/20250911_124305.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/2fdc581886b885f65f3b488f6796d39d9a1d80941e27aa1580d290906d557183.webp",
+            "bytes": 422608,
+            "sha256": "2fdc581886b885f65f3b488f6796d39d9a1d80941e27aa1580d290906d557183",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000074-a30d0a30d2/20250911_124305.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/77fc49014094c26c0fb37760459d8169fa7dc8501d303079358ab91e1346a34e.jpg",
+        "bytes": 564876,
+        "sha256": "77fc49014094c26c0fb37760459d8169fa7dc8501d303079358ab91e1346a34e",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 7,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000074-a30d0a30d2/20250911_124305.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 9 / 16;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 4,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-008",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000081-76cc676cc9/20250830_185040.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000081-76cc676cc9/20250830_185040.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000081-76cc676cc9/20250830_185040.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/25a84c3726b43a8519dbca5acf7edb6796b1c56adb98b896b66b1019e9a0a837.jpg",
+            "bytes": 1003912,
+            "sha256": "25a84c3726b43a8519dbca5acf7edb6796b1c56adb98b896b66b1019e9a0a837",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1380
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000083-4d5114d514/450/20250830_185040.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000083-4d5114d514/450/20250830_185040.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/1b69ca2c24d84bee8677e19801146ce17426a6e2bc4d0a198ba200ed63f50272.webp",
+            "bytes": 63598,
+            "sha256": "1b69ca2c24d84bee8677e19801146ce17426a6e2bc4d0a198ba200ed63f50272",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              323
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000083-4d5114d514/700/20250830_185040.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000083-4d5114d514/20250830_185040.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000083-4d5114d514/20250830_185040.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/0f5ff935e751ff82d3f3bd2fc26cd8a632b8b5e61d2b52634c2294d1e08274e5.webp",
+            "bytes": 810872,
+            "sha256": "0f5ff935e751ff82d3f3bd2fc26cd8a632b8b5e61d2b52634c2294d1e08274e5",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1380
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000081-76cc676cc9/20250830_185040.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/25a84c3726b43a8519dbca5acf7edb6796b1c56adb98b896b66b1019e9a0a837.jpg",
+        "bytes": 1003912,
+        "sha256": "25a84c3726b43a8519dbca5acf7edb6796b1c56adb98b896b66b1019e9a0a837",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1380
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 8,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000081-76cc676cc9/20250830_185040.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1380\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 32 / 23;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 5,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-009",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000079-4bc124bc14/DSC02149.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000079-4bc124bc14/DSC02149.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000079-4bc124bc14/DSC02149.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/20751a45b44a36434d5a94a67dec0c086803d4a092aab5a3bacf184e239a195c.jpg",
+            "bytes": 877332,
+            "sha256": "20751a45b44a36434d5a94a67dec0c086803d4a092aab5a3bacf184e239a195c",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1280
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000082-9ab579ab59/450/DSC02149.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000082-9ab579ab59/450/DSC02149.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/a8be33d820a1a7fb510ce5b4b3532e585ad9d3b3300632eca4b77f507bd99985.webp",
+            "bytes": 69820,
+            "sha256": "a8be33d820a1a7fb510ce5b4b3532e585ad9d3b3300632eca4b77f507bd99985",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              300
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000082-9ab579ab59/700/DSC02149.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000082-9ab579ab59/DSC02149.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000082-9ab579ab59/DSC02149.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/65cbadb4ae399978d5a9aeb0bae30b66ff129d1e273ee8ca28a877742ca851f1.webp",
+            "bytes": 707378,
+            "sha256": "65cbadb4ae399978d5a9aeb0bae30b66ff129d1e273ee8ca28a877742ca851f1",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1280
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000079-4bc124bc14/DSC02149.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/20751a45b44a36434d5a94a67dec0c086803d4a092aab5a3bacf184e239a195c.jpg",
+        "bytes": 877332,
+        "sha256": "20751a45b44a36434d5a94a67dec0c086803d4a092aab5a3bacf184e239a195c",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 9,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000079-4bc124bc14/DSC02149.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1280\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 2;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 6,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-010",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000086-26b3d26b3f/FB_IMG_1760097531343.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000086-26b3d26b3f/FB_IMG_1760097531343.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000086-26b3d26b3f/FB_IMG_1760097531343.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/73d5fb3e333a0fc4ca32b9d3c02bf21ab2c48fa6ab992ff9d4b272dabb51d592.jpg",
+            "bytes": 78095,
+            "sha256": "73d5fb3e333a0fc4ca32b9d3c02bf21ab2c48fa6ab992ff9d4b272dabb51d592",
+            "format": "JPEG",
+            "dimensions": [
+              594,
+              589
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000087-0019d001a0/450/FB_IMG_1760097531343.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000087-0019d001a0/450/FB_IMG_1760097531343.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/0c5fb76891a79040566cee1fdefd8e325c1a095d34ae63e5b1eeb0c1697250a8.webp",
+            "bytes": 97548,
+            "sha256": "0c5fb76891a79040566cee1fdefd8e325c1a095d34ae63e5b1eeb0c1697250a8",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              446
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000087-0019d001a0/700/FB_IMG_1760097531343.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000087-0019d001a0/FB_IMG_1760097531343.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000087-0019d001a0/FB_IMG_1760097531343.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/bbb5a8b170d3fc498d0d0de71e8dab486cacbdd5b10b9e4718df81c4c310cb20.webp",
+            "bytes": 147536,
+            "sha256": "bbb5a8b170d3fc498d0d0de71e8dab486cacbdd5b10b9e4718df81c4c310cb20",
+            "format": "WEBP",
+            "dimensions": [
+              594,
+              589
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000086-26b3d26b3f/FB_IMG_1760097531343.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/73d5fb3e333a0fc4ca32b9d3c02bf21ab2c48fa6ab992ff9d4b272dabb51d592.jpg",
+        "bytes": 78095,
+        "sha256": "73d5fb3e333a0fc4ca32b9d3c02bf21ab2c48fa6ab992ff9d4b272dabb51d592",
+        "format": "JPEG",
+        "dimensions": [
+          594,
+          589
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 10,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000086-26b3d26b3f/FB_IMG_1760097531343.jpeg?ph=454501af52\" alt=\"\" width=\"594\" height=\"589\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 594 / 589;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 7,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-011",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000100-760f6760f8/20241016_111208-0.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000100-760f6760f8/20241016_111208-0.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000100-760f6760f8/20241016_111208-0.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036.jpg",
+            "bytes": 720903,
+            "sha256": "739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000101-bcca9bccac/450/20241016_111208-1.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000101-bcca9bccac/450/20241016_111208-1.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/7fa61ebaa3ad15adf9dae5e814cfce2e8c5cc6bff16e178607fd99489c9c2173.webp",
+            "bytes": 62622,
+            "sha256": "7fa61ebaa3ad15adf9dae5e814cfce2e8c5cc6bff16e178607fd99489c9c2173",
+            "format": "WEBP",
+            "dimensions": [
+              338,
+              450
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000101-bcca9bccac/700/20241016_111208-1.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000101-bcca9bccac/20241016_111208-1.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000101-bcca9bccac/20241016_111208-1.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/781abeed0c1520b088ba085d5689fe34530807199078bfabbc9b32eab8a3a005.webp",
+            "bytes": 512808,
+            "sha256": "781abeed0c1520b088ba085d5689fe34530807199078bfabbc9b32eab8a3a005",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000100-760f6760f8/20241016_111208-0.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036.jpg",
+        "bytes": 720903,
+        "sha256": "739096c9db027dcf3dd8a142a7724b0e23ebfbbd2160e620e32c19ab8f0a4036",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 11,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000100-760f6760f8/20241016_111208-0.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/",
+          "kind": "gallery",
+          "gallery_id": "home-gallery-01",
+          "order": 8,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-012",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000102-f329df329f/1000060827.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000102-f329df329f/1000060827.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000102-f329df329f/1000060827.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/fd224af8cc3e63adddf1ff57534102b531dd064339cdc194664fdf78aea8cff1.jpg",
+            "bytes": 472703,
+            "sha256": "fd224af8cc3e63adddf1ff57534102b531dd064339cdc194664fdf78aea8cff1",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000103-1ce771ce79/1000060827.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000103-1ce771ce79/1000060827.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/24d722a710b2478d347264af48db93b332eed3fc0cb4e92857e135d828827751.webp",
+            "bytes": 347116,
+            "sha256": "24d722a710b2478d347264af48db93b332eed3fc0cb4e92857e135d828827751",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000103-1ce771ce79/450/1000060827.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000103-1ce771ce79/700/1000060827.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000102-f329df329f/1000060827.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/fd224af8cc3e63adddf1ff57534102b531dd064339cdc194664fdf78aea8cff1.jpg",
+        "bytes": 472703,
+        "sha256": "fd224af8cc3e63adddf1ff57534102b531dd064339cdc194664fdf78aea8cff1",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 12,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_99421764830759074_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000102-f329df329f/1000060827.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-013",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000120-12ef412ef5/21433.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000120-12ef412ef5/21433.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000120-12ef412ef5/21433.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/700ef3166ef7a503e48fa486e2ba3f9da94089789170e21d0ec38ba902cc8fde.jpg",
+            "bytes": 1316735,
+            "sha256": "700ef3166ef7a503e48fa486e2ba3f9da94089789170e21d0ec38ba902cc8fde",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000121-8283b8283d/21433.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000121-8283b8283d/21433.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/8185d1c3a7498d402a00719e8479099788c4cee0dc6942fccff51117d6107b05.webp",
+            "bytes": 1123228,
+            "sha256": "8185d1c3a7498d402a00719e8479099788c4cee0dc6942fccff51117d6107b05",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000121-8283b8283d/450/21433.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000121-8283b8283d/700/21433.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000120-12ef412ef5/21433.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/700ef3166ef7a503e48fa486e2ba3f9da94089789170e21d0ec38ba902cc8fde.jpg",
+        "bytes": 1316735,
+        "sha256": "700ef3166ef7a503e48fa486e2ba3f9da94089789170e21d0ec38ba902cc8fde",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 13,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_27011779200210800_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000120-12ef412ef5/21433.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-014",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000122-98c8498c86/21419.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000122-98c8498c86/21419.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000122-98c8498c86/21419.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/1ab7ab4780ed61707c0d4e13712b3dec66a6ab69a0277f37976ed5d51d2906c1.jpg",
+            "bytes": 959469,
+            "sha256": "1ab7ab4780ed61707c0d4e13712b3dec66a6ab69a0277f37976ed5d51d2906c1",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000123-0d5be0d5c0/21419.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000123-0d5be0d5c0/21419.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/23e726d4c55dde3c759c5239ad87914b691e360b38c1d00d160c1f6247302ee9.webp",
+            "bytes": 751084,
+            "sha256": "23e726d4c55dde3c759c5239ad87914b691e360b38c1d00d160c1f6247302ee9",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000123-0d5be0d5c0/450/21419.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000123-0d5be0d5c0/700/21419.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000122-98c8498c86/21419.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/1ab7ab4780ed61707c0d4e13712b3dec66a6ab69a0277f37976ed5d51d2906c1.jpg",
+        "bytes": 959469,
+        "sha256": "1ab7ab4780ed61707c0d4e13712b3dec66a6ab69a0277f37976ed5d51d2906c1",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 14,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_88071779200240246_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000122-98c8498c86/21419.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-015",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000124-0462e04631/29461.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000124-0462e04631/29461.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000124-0462e04631/29461.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/5e86253374382b2381cdd1a473e68fe876b88f86ad0a65b6236135cc6588b3b8.jpg",
+            "bytes": 797120,
+            "sha256": "5e86253374382b2381cdd1a473e68fe876b88f86ad0a65b6236135cc6588b3b8",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000125-4d4c24d4c4/29461.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000125-4d4c24d4c4/29461.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/59c266c1ec5e11525f93e7f40297943e612d7589bf10636795d6b8b8c094d491.webp",
+            "bytes": 651934,
+            "sha256": "59c266c1ec5e11525f93e7f40297943e612d7589bf10636795d6b8b8c094d491",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000125-4d4c24d4c4/450/29461.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000125-4d4c24d4c4/700/29461.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000124-0462e04631/29461.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/5e86253374382b2381cdd1a473e68fe876b88f86ad0a65b6236135cc6588b3b8.jpg",
+        "bytes": 797120,
+        "sha256": "5e86253374382b2381cdd1a473e68fe876b88f86ad0a65b6236135cc6588b3b8",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/",
+          "kind": "img",
+          "order": 15,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_31211779200269535_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000124-0462e04631/29461.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-016",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000034-ce0a3ce0a5/Screenshot_20251010_130600_Facebook.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000034-ce0a3ce0a5/Screenshot_20251010_130600_Facebook.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000034-ce0a3ce0a5/Screenshot_20251010_130600_Facebook.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/5b5cddb4e634fc247125e3bb0fe2c4cde4e108125054d854dd89e486320f3cbe.jpg",
+            "bytes": 471475,
+            "sha256": "5b5cddb4e634fc247125e3bb0fe2c4cde4e108125054d854dd89e486320f3cbe",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              838
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000035-e5982e5984/Screenshot_20251010_130600_Facebook.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000035-e5982e5984/Screenshot_20251010_130600_Facebook.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b5af1c60c937acc332863bc73635a146cf56af7cda609e432d7d2d7eb8f047b3.webp",
+            "bytes": 107250,
+            "sha256": "b5af1c60c937acc332863bc73635a146cf56af7cda609e432d7d2d7eb8f047b3",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              838
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000035-e5982e5984/450/Screenshot_20251010_130600_Facebook.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000035-e5982e5984/700/Screenshot_20251010_130600_Facebook.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000034-ce0a3ce0a5/Screenshot_20251010_130600_Facebook.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/5b5cddb4e634fc247125e3bb0fe2c4cde4e108125054d854dd89e486320f3cbe.jpg",
+        "bytes": 471475,
+        "sha256": "5b5cddb4e634fc247125e3bb0fe2c4cde4e108125054d854dd89e486320f3cbe",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          838
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/o-nas/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_96391760094414811_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000034-ce0a3ce0a5/Screenshot_20251010_130600_Facebook.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"838\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-017",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000098-3139b3139d/20250210_155424.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000098-3139b3139d/20250210_155424.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000098-3139b3139d/20250210_155424.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/94209e38c1cb23a8019883d2ea2a948e77804ca7297e63a8f9f68195dc373769.jpg",
+            "bytes": 1457299,
+            "sha256": "94209e38c1cb23a8019883d2ea2a948e77804ca7297e63a8f9f68195dc373769",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000099-60e9360e95/20250210_155424.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000099-60e9360e95/20250210_155424.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b0a1246ae053b27a6aa80cdd2d1aeea73430af8e83cef0553e51c4fdd371c5fd.webp",
+            "bytes": 1276836,
+            "sha256": "b0a1246ae053b27a6aa80cdd2d1aeea73430af8e83cef0553e51c4fdd371c5fd",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000099-60e9360e95/450/20250210_155424.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000099-60e9360e95/700/20250210_155424.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000098-3139b3139d/20250210_155424.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/94209e38c1cb23a8019883d2ea2a948e77804ca7297e63a8f9f68195dc373769.jpg",
+        "bytes": 1457299,
+        "sha256": "94209e38c1cb23a8019883d2ea2a948e77804ca7297e63a8f9f68195dc373769",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/o-nas/",
+          "kind": "img",
+          "order": 3,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_86381760093153717801_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000098-3139b3139d/20250210_155424.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-018",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000088-f0564f0567/FB_IMG_1759862020716.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000088-f0564f0567/FB_IMG_1759862020716.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000088-f0564f0567/FB_IMG_1759862020716.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/fe74cf50e4367ef067360bb626f5cc642f5e815cc6c74b4589fd7a80be3ce2a9.jpg",
+            "bytes": 178727,
+            "sha256": "fe74cf50e4367ef067360bb626f5cc642f5e815cc6c74b4589fd7a80be3ce2a9",
+            "format": "JPEG",
+            "dimensions": [
+              752,
+              1020
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000089-3a69b3a69e/FB_IMG_1759862020716.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000089-3a69b3a69e/FB_IMG_1759862020716.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/0c39013916fabfe1604a3ce587a525daa428408b2af0d26c1557d4d91c6b8df0.webp",
+            "bytes": 339854,
+            "sha256": "0c39013916fabfe1604a3ce587a525daa428408b2af0d26c1557d4d91c6b8df0",
+            "format": "WEBP",
+            "dimensions": [
+              752,
+              1020
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000089-3a69b3a69e/450/FB_IMG_1759862020716.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000089-3a69b3a69e/700/FB_IMG_1759862020716.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000088-f0564f0567/FB_IMG_1759862020716.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/fe74cf50e4367ef067360bb626f5cc642f5e815cc6c74b4589fd7a80be3ce2a9.jpg",
+        "bytes": 178727,
+        "sha256": "fe74cf50e4367ef067360bb626f5cc642f5e815cc6c74b4589fd7a80be3ce2a9",
+        "format": "JPEG",
+        "dimensions": [
+          752,
+          1020
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/sluzby/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_30611760093169578897_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000088-f0564f0567/FB_IMG_1759862020716.jpeg?ph=454501af52\" alt=\"\" width=\"752\" height=\"1020\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-019",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000090-92e1192e13/Screenshot_20250810_080750_Gallery.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000090-92e1192e13/Screenshot_20250810_080750_Gallery.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000090-92e1192e13/Screenshot_20250810_080750_Gallery.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/3d5a6ef0439d2deffc9ac7cf5486afdd0c80b8645bbafdcd719b7b7a45959726.jpg",
+            "bytes": 548589,
+            "sha256": "3d5a6ef0439d2deffc9ac7cf5486afdd0c80b8645bbafdcd719b7b7a45959726",
+            "format": "JPEG",
+            "dimensions": [
+              886,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000092-c9984c9986/Screenshot_20250810_080750_Gallery.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000092-c9984c9986/Screenshot_20250810_080750_Gallery.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/7eea3f188bb15679b327f084d8198cb90f137006183e8f2350cc631a590826c3.webp",
+            "bytes": 438102,
+            "sha256": "7eea3f188bb15679b327f084d8198cb90f137006183e8f2350cc631a590826c3",
+            "format": "WEBP",
+            "dimensions": [
+              886,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000092-c9984c9986/450/Screenshot_20250810_080750_Gallery.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000092-c9984c9986/700/Screenshot_20250810_080750_Gallery.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000090-92e1192e13/Screenshot_20250810_080750_Gallery.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/3d5a6ef0439d2deffc9ac7cf5486afdd0c80b8645bbafdcd719b7b7a45959726.jpg",
+        "bytes": 548589,
+        "sha256": "3d5a6ef0439d2deffc9ac7cf5486afdd0c80b8645bbafdcd719b7b7a45959726",
+        "format": "JPEG",
+        "dimensions": [
+          886,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/sluzby/",
+          "kind": "img",
+          "order": 3,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_56361760093169579316_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000090-92e1192e13/Screenshot_20250810_080750_Gallery.jpeg?ph=454501af52\" alt=\"\" width=\"886\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-020",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000037-192891928b/20230729_112729.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000037-192891928b/20230729_112729.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000037-192891928b/20230729_112729.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/85d9116c7a77d6a01e1a4f0983984fc23d40b6ba1f3fd596c9297f450dc6fc66.jpg",
+            "bytes": 642107,
+            "sha256": "85d9116c7a77d6a01e1a4f0983984fc23d40b6ba1f3fd596c9297f450dc6fc66",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1080
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000041-7189f718a2/450/20230729_112729.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000041-7189f718a2/450/20230729_112729.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/0af445d1aeaab2974db5017df110c27022a7a389d939d6ecd239d0a3cf2d659d.webp",
+            "bytes": 49128,
+            "sha256": "0af445d1aeaab2974db5017df110c27022a7a389d939d6ecd239d0a3cf2d659d",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              253
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000041-7189f718a2/700/20230729_112729.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000041-7189f718a2/20230729_112729.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000041-7189f718a2/20230729_112729.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/43e47eea401816a8c3ac81dcc6f97883c94580a35a34b9d151586f68ddc08b19.webp",
+            "bytes": 519760,
+            "sha256": "43e47eea401816a8c3ac81dcc6f97883c94580a35a34b9d151586f68ddc08b19",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1080
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000037-192891928b/20230729_112729.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/85d9116c7a77d6a01e1a4f0983984fc23d40b6ba1f3fd596c9297f450dc6fc66.jpg",
+        "bytes": 642107,
+        "sha256": "85d9116c7a77d6a01e1a4f0983984fc23d40b6ba1f3fd596c9297f450dc6fc66",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000037-192891928b/20230729_112729.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1080\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 16 / 9;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 1,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-021",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000038-1f7821f783/Screenshot_20230808_161157_Gallery.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000038-1f7821f783/Screenshot_20230808_161157_Gallery.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000038-1f7821f783/Screenshot_20230808_161157_Gallery.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/1a4fbd4de47fa11d5ad40069dab4c70cd58263c6a662d31263f9fbbe764e9ad2.jpg",
+            "bytes": 244290,
+            "sha256": "1a4fbd4de47fa11d5ad40069dab4c70cd58263c6a662d31263f9fbbe764e9ad2",
+            "format": "JPEG",
+            "dimensions": [
+              579,
+              396
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000039-1164611648/450/Screenshot_20230808_161157_Gallery.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000039-1164611648/450/Screenshot_20230808_161157_Gallery.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/f267d7a38c398cdde3948eabe5eefa5ad96d2684604e2a1f9c22959d99d09d83.webp",
+            "bytes": 72490,
+            "sha256": "f267d7a38c398cdde3948eabe5eefa5ad96d2684604e2a1f9c22959d99d09d83",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              308
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000039-1164611648/700/Screenshot_20230808_161157_Gallery.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000039-1164611648/Screenshot_20230808_161157_Gallery.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000039-1164611648/Screenshot_20230808_161157_Gallery.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/a752a184a4cc0136a2389e05dd0b1b4715d8e358ef87aa5f08ecc5369bcd4e2c.webp",
+            "bytes": 114834,
+            "sha256": "a752a184a4cc0136a2389e05dd0b1b4715d8e358ef87aa5f08ecc5369bcd4e2c",
+            "format": "WEBP",
+            "dimensions": [
+              579,
+              396
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000038-1f7821f783/Screenshot_20230808_161157_Gallery.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/1a4fbd4de47fa11d5ad40069dab4c70cd58263c6a662d31263f9fbbe764e9ad2.jpg",
+        "bytes": 244290,
+        "sha256": "1a4fbd4de47fa11d5ad40069dab4c70cd58263c6a662d31263f9fbbe764e9ad2",
+        "format": "JPEG",
+        "dimensions": [
+          579,
+          396
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 3,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000038-1f7821f783/Screenshot_20230808_161157_Gallery.jpeg?ph=454501af52\" alt=\"\" width=\"579\" height=\"396\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 193 / 132;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 2,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-022",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000042-7700f77010/20230808_131632.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000042-7700f77010/20230808_131632.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000042-7700f77010/20230808_131632.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/30852a4ae65f63fa25a6ecc6d17f0b34118dc130183ff25c29b33eac36dd3237.jpg",
+            "bytes": 1098128,
+            "sha256": "30852a4ae65f63fa25a6ecc6d17f0b34118dc130183ff25c29b33eac36dd3237",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000045-cd216cd217/700/20230808_131632.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000045-cd216cd217/700/20230808_131632.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/40387f7cac0e993cff9de333b0020a4c147372439e1c62a0b269d4c550946447.webp",
+            "bytes": 189876,
+            "sha256": "40387f7cac0e993cff9de333b0020a4c147372439e1c62a0b269d4c550946447",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000045-cd216cd217/450/20230808_131632.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000045-cd216cd217/20230808_131632.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000045-cd216cd217/20230808_131632.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/51f9ea86897802824b8bca8c819061fac076f2c67d41d287da1dfd8739dfb8f9.webp",
+            "bytes": 928688,
+            "sha256": "51f9ea86897802824b8bca8c819061fac076f2c67d41d287da1dfd8739dfb8f9",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000042-7700f77010/20230808_131632.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/30852a4ae65f63fa25a6ecc6d17f0b34118dc130183ff25c29b33eac36dd3237.jpg",
+        "bytes": 1098128,
+        "sha256": "30852a4ae65f63fa25a6ecc6d17f0b34118dc130183ff25c29b33eac36dd3237",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 4,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000042-7700f77010/20230808_131632.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 3,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-023",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000043-ad39dad39f/20230726_201909.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000043-ad39dad39f/20230726_201909.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000043-ad39dad39f/20230726_201909.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/1a72c49537cd8b337546e001847bbd731ceedbc19805e1c57df0dacce605f01c.jpg",
+            "bytes": 538886,
+            "sha256": "1a72c49537cd8b337546e001847bbd731ceedbc19805e1c57df0dacce605f01c",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000047-e516be5192/700/20230726_201909.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000047-e516be5192/700/20230726_201909.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/8496ec7310c1ac6e744f1a8342e37989a367370f1cde1c2a7ec11b40889d5d5f.webp",
+            "bytes": 79062,
+            "sha256": "8496ec7310c1ac6e744f1a8342e37989a367370f1cde1c2a7ec11b40889d5d5f",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000047-e516be5192/450/20230726_201909.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000047-e516be5192/20230726_201909.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000047-e516be5192/20230726_201909.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/ddcdd198dc3f28aab4fd5886539bb8d3bedb3507abc33ddf30643fafaa7e7180.webp",
+            "bytes": 334166,
+            "sha256": "ddcdd198dc3f28aab4fd5886539bb8d3bedb3507abc33ddf30643fafaa7e7180",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000043-ad39dad39f/20230726_201909.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/1a72c49537cd8b337546e001847bbd731ceedbc19805e1c57df0dacce605f01c.jpg",
+        "bytes": 538886,
+        "sha256": "1a72c49537cd8b337546e001847bbd731ceedbc19805e1c57df0dacce605f01c",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 5,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000043-ad39dad39f/20230726_201909.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 4,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-024",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000044-ba05dba05e/IMG-20230917-WA0001.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000044-ba05dba05e/IMG-20230917-WA0001.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000044-ba05dba05e/IMG-20230917-WA0001.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/77728a29d7feeaf0fd20331053359679d245c53a2caa039c24aea5cde142b52b.jpg",
+            "bytes": 116889,
+            "sha256": "77728a29d7feeaf0fd20331053359679d245c53a2caa039c24aea5cde142b52b",
+            "format": "JPEG",
+            "dimensions": [
+              721,
+              1600
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000046-ac409ac40b/IMG-20230917-WA0001.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000046-ac409ac40b/IMG-20230917-WA0001.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/0641d403e06a0e307f57ac64afad85934a8d3c77dfa839fd1efeed65d2233a56.webp",
+            "bytes": 126956,
+            "sha256": "0641d403e06a0e307f57ac64afad85934a8d3c77dfa839fd1efeed65d2233a56",
+            "format": "WEBP",
+            "dimensions": [
+              721,
+              1600
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000046-ac409ac40b/450/IMG-20230917-WA0001.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000046-ac409ac40b/700/IMG-20230917-WA0001.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000044-ba05dba05e/IMG-20230917-WA0001.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/77728a29d7feeaf0fd20331053359679d245c53a2caa039c24aea5cde142b52b.jpg",
+        "bytes": 116889,
+        "sha256": "77728a29d7feeaf0fd20331053359679d245c53a2caa039c24aea5cde142b52b",
+        "format": "JPEG",
+        "dimensions": [
+          721,
+          1600
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 6,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000044-ba05dba05e/IMG-20230917-WA0001.jpeg?ph=454501af52\" alt=\"\" width=\"721\" height=\"1600\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 721 / 1600;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 5,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-025",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000048-7728277284/20230728_094435.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000048-7728277284/20230728_094435.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000048-7728277284/20230728_094435.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/9af11e499666305fc4efff4061fb298d374ac6e3df27206ab2fee1d9ff30e933.jpg",
+            "bytes": 1508667,
+            "sha256": "9af11e499666305fc4efff4061fb298d374ac6e3df27206ab2fee1d9ff30e933",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000051-06a7106a73/450/20230728_094435.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000051-06a7106a73/450/20230728_094435.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/8b858f859368e7879280c34a36fb704f8cca7df597ee3684e06a9911ec13c9c9.webp",
+            "bytes": 90470,
+            "sha256": "8b858f859368e7879280c34a36fb704f8cca7df597ee3684e06a9911ec13c9c9",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              338
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000051-06a7106a73/700/20230728_094435.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000051-06a7106a73/20230728_094435.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000051-06a7106a73/20230728_094435.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/e876887d9911216051ec36d75c4f370b1134a3adfbd832f4ab1130a362672672.webp",
+            "bytes": 1406486,
+            "sha256": "e876887d9911216051ec36d75c4f370b1134a3adfbd832f4ab1130a362672672",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000048-7728277284/20230728_094435.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/9af11e499666305fc4efff4061fb298d374ac6e3df27206ab2fee1d9ff30e933.jpg",
+        "bytes": 1508667,
+        "sha256": "9af11e499666305fc4efff4061fb298d374ac6e3df27206ab2fee1d9ff30e933",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1440
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 7,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000048-7728277284/20230728_094435.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1440\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 4 / 3;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 6,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-026",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000049-b1035b1037/20230729_102706.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000049-b1035b1037/20230729_102706.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000049-b1035b1037/20230729_102706.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/cef0e18336ed905055b1037cb63d3a7cb3b93bb1b4f412baf0276f30c2fbe98e.jpg",
+            "bytes": 683247,
+            "sha256": "cef0e18336ed905055b1037cb63d3a7cb3b93bb1b4f412baf0276f30c2fbe98e",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1487
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000052-0fdb80fdba/450/20230729_102706.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000052-0fdb80fdba/450/20230729_102706.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/94af8664f00733a29d5e8b3e01ba4adc32c665560ba0f97d631d21ada2d25eac.webp",
+            "bytes": 50718,
+            "sha256": "94af8664f00733a29d5e8b3e01ba4adc32c665560ba0f97d631d21ada2d25eac",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              349
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000052-0fdb80fdba/700/20230729_102706.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000052-0fdb80fdba/20230729_102706.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000052-0fdb80fdba/20230729_102706.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/3e3d15b418a1f38fb3aff075d046a8bc7c29b0c6a3e3180a03aeeb3962c90803.webp",
+            "bytes": 470054,
+            "sha256": "3e3d15b418a1f38fb3aff075d046a8bc7c29b0c6a3e3180a03aeeb3962c90803",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1487
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000049-b1035b1037/20230729_102706.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/cef0e18336ed905055b1037cb63d3a7cb3b93bb1b4f412baf0276f30c2fbe98e.jpg",
+        "bytes": 683247,
+        "sha256": "cef0e18336ed905055b1037cb63d3a7cb3b93bb1b4f412baf0276f30c2fbe98e",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1487
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 8,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000049-b1035b1037/20230729_102706.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1487\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 1920 / 1487;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 7,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-027",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000050-6dddf6dde1/20230728_201955.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000050-6dddf6dde1/20230728_201955.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000050-6dddf6dde1/20230728_201955.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/be056ca20d6decd5a03932614217a3a137bbaefe96961d4b34d6b7d800dcc35b.jpg",
+            "bytes": 633133,
+            "sha256": "be056ca20d6decd5a03932614217a3a137bbaefe96961d4b34d6b7d800dcc35b",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000054-a63d7a63d9/450/20230728_201955.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000054-a63d7a63d9/450/20230728_201955.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/128e831adb52422093a79a2837a364b06aff2b1a95c6b5bbb0a4f9ce1f0f2a65.webp",
+            "bytes": 50728,
+            "sha256": "128e831adb52422093a79a2837a364b06aff2b1a95c6b5bbb0a4f9ce1f0f2a65",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              338
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000054-a63d7a63d9/700/20230728_201955.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000054-a63d7a63d9/20230728_201955.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000054-a63d7a63d9/20230728_201955.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/cc1c23d7e40d3b896825791a632c6090d07c6809af847070039cc9aa906b4a36.webp",
+            "bytes": 414978,
+            "sha256": "cc1c23d7e40d3b896825791a632c6090d07c6809af847070039cc9aa906b4a36",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000050-6dddf6dde1/20230728_201955.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/be056ca20d6decd5a03932614217a3a137bbaefe96961d4b34d6b7d800dcc35b.jpg",
+        "bytes": 633133,
+        "sha256": "be056ca20d6decd5a03932614217a3a137bbaefe96961d4b34d6b7d800dcc35b",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1440
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 9,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000050-6dddf6dde1/20230728_201955.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1440\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 4 / 3;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 8,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-028",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000053-1f9331f936/20230901_123525.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000053-1f9331f936/20230901_123525.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000053-1f9331f936/20230901_123525.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/43ba11066e63e53c908be7dac91fefee0b56753046c27b976639584930da94ab.jpg",
+            "bytes": 436704,
+            "sha256": "43ba11066e63e53c908be7dac91fefee0b56753046c27b976639584930da94ab",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000056-528de528e0/700/20230901_123525.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000056-528de528e0/700/20230901_123525.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b4f0fe68bdb4e36cdb56a6e74951c9368c73e965c9a24ef991fe4ba1bffa0440.webp",
+            "bytes": 60314,
+            "sha256": "b4f0fe68bdb4e36cdb56a6e74951c9368c73e965c9a24ef991fe4ba1bffa0440",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000056-528de528e0/450/20230901_123525.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000056-528de528e0/20230901_123525.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000056-528de528e0/20230901_123525.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b7ddf5093ec74496b347de4ce3fdaa818daad3f51811c74a6806def3a414b8f5.webp",
+            "bytes": 248984,
+            "sha256": "b7ddf5093ec74496b347de4ce3fdaa818daad3f51811c74a6806def3a414b8f5",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000053-1f9331f936/20230901_123525.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/43ba11066e63e53c908be7dac91fefee0b56753046c27b976639584930da94ab.jpg",
+        "bytes": 436704,
+        "sha256": "43ba11066e63e53c908be7dac91fefee0b56753046c27b976639584930da94ab",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 10,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000053-1f9331f936/20230901_123525.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 9,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-029",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000036-02d9a02d9c/20231031_104857.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000036-02d9a02d9c/20231031_104857.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000036-02d9a02d9c/20231031_104857.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/ec334ab2cf555b144699d35a2e5e1ef6a67409a7032e876b21bf97f91f484328.jpg",
+            "bytes": 586767,
+            "sha256": "ec334ab2cf555b144699d35a2e5e1ef6a67409a7032e876b21bf97f91f484328",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000040-4e26c4e26e/700/20231031_104857.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000040-4e26c4e26e/700/20231031_104857.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/9614c7bd8f4644bf133793faa3aad9d98f86cc08a8d845a887e301851461e33c.webp",
+            "bytes": 107552,
+            "sha256": "9614c7bd8f4644bf133793faa3aad9d98f86cc08a8d845a887e301851461e33c",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000040-4e26c4e26e/450/20231031_104857.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000040-4e26c4e26e/20231031_104857.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000040-4e26c4e26e/20231031_104857.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/defd2cc409c33360d7508f3228d03253c9d2a40c1f39d6ca4ae9e353aa03588c.webp",
+            "bytes": 364526,
+            "sha256": "defd2cc409c33360d7508f3228d03253c9d2a40c1f39d6ca4ae9e353aa03588c",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000036-02d9a02d9c/20231031_104857.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/ec334ab2cf555b144699d35a2e5e1ef6a67409a7032e876b21bf97f91f484328.jpg",
+        "bytes": 586767,
+        "sha256": "ec334ab2cf555b144699d35a2e5e1ef6a67409a7032e876b21bf97f91f484328",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 11,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000036-02d9a02d9c/20231031_104857.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 10,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-030",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000055-1129111293/20230922_060914.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000055-1129111293/20230922_060914.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000055-1129111293/20230922_060914.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/d37be3d0aa509fc00ee043fb0988f76764007842836cdab7d45b4155e4f6bc30.jpg",
+            "bytes": 451347,
+            "sha256": "d37be3d0aa509fc00ee043fb0988f76764007842836cdab7d45b4155e4f6bc30",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000058-556bc556be/700/20230922_060914.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000058-556bc556be/700/20230922_060914.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/34c9071c1417c930a127a60c1e7e4d1b1eec4cf078c48f2c6e35721321d27630.webp",
+            "bytes": 60820,
+            "sha256": "34c9071c1417c930a127a60c1e7e4d1b1eec4cf078c48f2c6e35721321d27630",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000058-556bc556be/450/20230922_060914.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000058-556bc556be/20230922_060914.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000058-556bc556be/20230922_060914.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/274b2c13a22d849bf7f846b7b968ae29ea0162c8d10da1f87e800b0d7f7a28c2.webp",
+            "bytes": 248080,
+            "sha256": "274b2c13a22d849bf7f846b7b968ae29ea0162c8d10da1f87e800b0d7f7a28c2",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000055-1129111293/20230922_060914.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/d37be3d0aa509fc00ee043fb0988f76764007842836cdab7d45b4155e4f6bc30.jpg",
+        "bytes": 451347,
+        "sha256": "d37be3d0aa509fc00ee043fb0988f76764007842836cdab7d45b4155e4f6bc30",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 12,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000055-1129111293/20230922_060914.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 11,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-031",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000057-d8b44d8b46/20230727_070919.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000057-d8b44d8b46/20230727_070919.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000057-d8b44d8b46/20230727_070919.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/22951244a561da06ffba12b11ba567aafa4a34ce176fe3bd9c3fa04a7691ffe0.jpg",
+            "bytes": 791038,
+            "sha256": "22951244a561da06ffba12b11ba567aafa4a34ce176fe3bd9c3fa04a7691ffe0",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000060-4c3434c345/450/20230727_070919.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000060-4c3434c345/450/20230727_070919.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b866e9978ff0d80cedb150d8afb4cbbf75f0ec683656372a845e1531dc52b46a.webp",
+            "bytes": 55306,
+            "sha256": "b866e9978ff0d80cedb150d8afb4cbbf75f0ec683656372a845e1531dc52b46a",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              338
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000060-4c3434c345/700/20230727_070919.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000060-4c3434c345/20230727_070919.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000060-4c3434c345/20230727_070919.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/f57e4413eb62d0a2535a979eca9b9523b2fde7b2033d08cc9686123829d46ccd.webp",
+            "bytes": 648822,
+            "sha256": "f57e4413eb62d0a2535a979eca9b9523b2fde7b2033d08cc9686123829d46ccd",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000057-d8b44d8b46/20230727_070919.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/22951244a561da06ffba12b11ba567aafa4a34ce176fe3bd9c3fa04a7691ffe0.jpg",
+        "bytes": 791038,
+        "sha256": "22951244a561da06ffba12b11ba567aafa4a34ce176fe3bd9c3fa04a7691ffe0",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1440
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 13,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000057-d8b44d8b46/20230727_070919.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1440\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 4 / 3;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 12,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-032",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000059-1e9391e93c/20231031_092434.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000059-1e9391e93c/20231031_092434.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000059-1e9391e93c/20231031_092434.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/d46456c31bdabf034444653a978cf9a66e5f7796444144c5f7698f0f0cb4b240.jpg",
+            "bytes": 998190,
+            "sha256": "d46456c31bdabf034444653a978cf9a66e5f7796444144c5f7698f0f0cb4b240",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000062-dfb81dfb83/700/20231031_092434.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000062-dfb81dfb83/700/20231031_092434.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/ce53e61d21935656ebe490e37b8762c0b62be5db66bcd8793db22a83a965d49a.webp",
+            "bytes": 179968,
+            "sha256": "ce53e61d21935656ebe490e37b8762c0b62be5db66bcd8793db22a83a965d49a",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000062-dfb81dfb83/450/20231031_092434.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000062-dfb81dfb83/20231031_092434.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000062-dfb81dfb83/20231031_092434.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/93d92e4f3a5148dd48e922c7fe1183c62291216ca191387b98de62aaadda72b6.webp",
+            "bytes": 826712,
+            "sha256": "93d92e4f3a5148dd48e922c7fe1183c62291216ca191387b98de62aaadda72b6",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000059-1e9391e93c/20231031_092434.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/d46456c31bdabf034444653a978cf9a66e5f7796444144c5f7698f0f0cb4b240.jpg",
+        "bytes": 998190,
+        "sha256": "d46456c31bdabf034444653a978cf9a66e5f7796444144c5f7698f0f0cb4b240",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 14,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000059-1e9391e93c/20231031_092434.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 13,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-033",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000061-d6243d6246/20230727_065357.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000061-d6243d6246/20230727_065357.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000061-d6243d6246/20230727_065357.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/63f366829862bb34c668f84a2e86d73aa8327c095222407fe8d2555af6e5c3d9.jpg",
+            "bytes": 787362,
+            "sha256": "63f366829862bb34c668f84a2e86d73aa8327c095222407fe8d2555af6e5c3d9",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000064-326d7326da/700/20230727_065357.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000064-326d7326da/700/20230727_065357.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/8fce7ec780c13ac62e0d4d81f5b1cab56f32d47baf4f8793f16c93fabea98c2c.webp",
+            "bytes": 112886,
+            "sha256": "8fce7ec780c13ac62e0d4d81f5b1cab56f32d47baf4f8793f16c93fabea98c2c",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000064-326d7326da/450/20230727_065357.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000064-326d7326da/20230727_065357.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000064-326d7326da/20230727_065357.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/b12755174a91fb1d2df4fae81a613c127b6e472bbac377da27aac0d84c8428c7.webp",
+            "bytes": 657576,
+            "sha256": "b12755174a91fb1d2df4fae81a613c127b6e472bbac377da27aac0d84c8428c7",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000061-d6243d6246/20230727_065357.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/63f366829862bb34c668f84a2e86d73aa8327c095222407fe8d2555af6e5c3d9.jpg",
+        "bytes": 787362,
+        "sha256": "63f366829862bb34c668f84a2e86d73aa8327c095222407fe8d2555af6e5c3d9",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 15,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000061-d6243d6246/20230727_065357.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 14,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-034",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000063-201fe20200/20231212_105302.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000063-201fe20200/20231212_105302.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000063-201fe20200/20231212_105302.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/032d1fb8fb5650951b4c1284b8a840920a6ab95b9b49e0d94cb3fd2648ae8001.jpg",
+            "bytes": 1070480,
+            "sha256": "032d1fb8fb5650951b4c1284b8a840920a6ab95b9b49e0d94cb3fd2648ae8001",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000067-89e0889e0b/700/20231212_105302.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000067-89e0889e0b/700/20231212_105302.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/bdae904ec24d7bbf44c5702c6e85f44a62ace540d1a4e3946713d650d63d9234.webp",
+            "bytes": 157034,
+            "sha256": "bdae904ec24d7bbf44c5702c6e85f44a62ace540d1a4e3946713d650d63d9234",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000067-89e0889e0b/450/20231212_105302.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000067-89e0889e0b/20231212_105302.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000067-89e0889e0b/20231212_105302.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/51071d351f22364567ebc42cb1756109f19a99886b13fa09ffd3439f58dcb672.webp",
+            "bytes": 936854,
+            "sha256": "51071d351f22364567ebc42cb1756109f19a99886b13fa09ffd3439f58dcb672",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000063-201fe20200/20231212_105302.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/032d1fb8fb5650951b4c1284b8a840920a6ab95b9b49e0d94cb3fd2648ae8001.jpg",
+        "bytes": 1070480,
+        "sha256": "032d1fb8fb5650951b4c1284b8a840920a6ab95b9b49e0d94cb3fd2648ae8001",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 16,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000063-201fe20200/20231212_105302.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 15,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-035",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000065-c07bdc07bf/20230930_155949.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000065-c07bdc07bf/20230930_155949.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000065-c07bdc07bf/20230930_155949.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/2306aee119ef00de9391b18c390d08aad1a41b0ecf15edd5d7c90d64e5490b36.jpg",
+            "bytes": 485489,
+            "sha256": "2306aee119ef00de9391b18c390d08aad1a41b0ecf15edd5d7c90d64e5490b36",
+            "format": "JPEG",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000068-381b5381b7/450/20230930_155949.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000068-381b5381b7/450/20230930_155949.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/ab17c2ffefd4dd80d0d976cfc356abe3ab714f1cdd1772e44e9ec9ae8930ca73.webp",
+            "bytes": 30142,
+            "sha256": "ab17c2ffefd4dd80d0d976cfc356abe3ab714f1cdd1772e44e9ec9ae8930ca73",
+            "format": "WEBP",
+            "dimensions": [
+              450,
+              338
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000068-381b5381b7/700/20230930_155949.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000068-381b5381b7/20230930_155949.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000068-381b5381b7/20230930_155949.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/e88f45e801efb54c0187bbdb8470ade33946707a7c714942119a203ef1eb1ec2.webp",
+            "bytes": 292820,
+            "sha256": "e88f45e801efb54c0187bbdb8470ade33946707a7c714942119a203ef1eb1ec2",
+            "format": "WEBP",
+            "dimensions": [
+              1920,
+              1440
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000065-c07bdc07bf/20230930_155949.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/2306aee119ef00de9391b18c390d08aad1a41b0ecf15edd5d7c90d64e5490b36.jpg",
+        "bytes": 485489,
+        "sha256": "2306aee119ef00de9391b18c390d08aad1a41b0ecf15edd5d7c90d64e5490b36",
+        "format": "JPEG",
+        "dimensions": [
+          1920,
+          1440
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 17,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000065-c07bdc07bf/20230930_155949.jpeg?ph=454501af52\" alt=\"\" width=\"1920\" height=\"1440\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 4 / 3;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 16,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-036",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000069-af88eaf890/20241016_110150.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000069-af88eaf890/20241016_110150.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000069-af88eaf890/20241016_110150.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/570e58bbc4c7f0b77c0e98b1af4f030956a3f20eb22201389ed33858f414fd97.jpg",
+            "bytes": 994781,
+            "sha256": "570e58bbc4c7f0b77c0e98b1af4f030956a3f20eb22201389ed33858f414fd97",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000071-594fe59500/700/20241016_110150.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000071-594fe59500/700/20241016_110150.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/c7cdfba15b923b4e5afed785cdc144beaa96bb15d1de4862cd57ab92fcaa9b55.webp",
+            "bytes": 151520,
+            "sha256": "c7cdfba15b923b4e5afed785cdc144beaa96bb15d1de4862cd57ab92fcaa9b55",
+            "format": "WEBP",
+            "dimensions": [
+              525,
+              700
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000071-594fe59500/450/20241016_110150.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000071-594fe59500/20241016_110150.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000071-594fe59500/20241016_110150.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/37435050acebf811428a403087cc062f9965a29bdc9f60b3a3256d62b8a6063d.webp",
+            "bytes": 835838,
+            "sha256": "37435050acebf811428a403087cc062f9965a29bdc9f60b3a3256d62b8a6063d",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000069-af88eaf890/20241016_110150.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/570e58bbc4c7f0b77c0e98b1af4f030956a3f20eb22201389ed33858f414fd97.jpg",
+        "bytes": 994781,
+        "sha256": "570e58bbc4c7f0b77c0e98b1af4f030956a3f20eb22201389ed33858f414fd97",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 19,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000069-af88eaf890/20241016_110150.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" class=\"img bor-rad\" style=\"aspect-ratio: 3 / 4;\">"
+        },
+        {
+          "page": "/fotogalerie/",
+          "kind": "gallery",
+          "gallery_id": "fotogalerie-gallery-01",
+          "order": 18,
+          "caption": ""
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-037",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000126-2f47e2f480/21068.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000126-2f47e2f480/21068.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000126-2f47e2f480/21068.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/e6639a7db3fac0fa881e9b0ebfb73491ec7c5ce6438dc0b71e4f9d18c67e0bd6.jpg",
+            "bytes": 329026,
+            "sha256": "e6639a7db3fac0fa881e9b0ebfb73491ec7c5ce6438dc0b71e4f9d18c67e0bd6",
+            "format": "JPEG",
+            "dimensions": [
+              887,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000127-3696e36970/21068.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000127-3696e36970/21068.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/44bb1c21cb07c2bfebd876bbf40134f03c56a076efa8bf200e5e1e298945b205.webp",
+            "bytes": 197714,
+            "sha256": "44bb1c21cb07c2bfebd876bbf40134f03c56a076efa8bf200e5e1e298945b205",
+            "format": "WEBP",
+            "dimensions": [
+              887,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000127-3696e36970/450/21068.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000127-3696e36970/700/21068.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000126-2f47e2f480/21068.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/e6639a7db3fac0fa881e9b0ebfb73491ec7c5ce6438dc0b71e4f9d18c67e0bd6.jpg",
+        "bytes": 329026,
+        "sha256": "e6639a7db3fac0fa881e9b0ebfb73491ec7c5ce6438dc0b71e4f9d18c67e0bd6",
+        "format": "JPEG",
+        "dimensions": [
+          887,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 20,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_93771779248991014_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000126-2f47e2f480/21068.jpeg?ph=454501af52\" alt=\"\" width=\"887\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-038",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000128-d94e7d94e9/21102.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000128-d94e7d94e9/21102.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000128-d94e7d94e9/21102.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/10c6cc5a2405faf6dcf721685c825ed6e66876275ecd73576ccf77c5af5a60f0.jpg",
+            "bytes": 625965,
+            "sha256": "10c6cc5a2405faf6dcf721685c825ed6e66876275ecd73576ccf77c5af5a60f0",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000129-0ea280ea2b/21102.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000129-0ea280ea2b/21102.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/183ddbe4b3398c1dd29b621dbc302e86e21d025c10cd87c653ad569240124d74.webp",
+            "bytes": 403766,
+            "sha256": "183ddbe4b3398c1dd29b621dbc302e86e21d025c10cd87c653ad569240124d74",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000129-0ea280ea2b/450/21102.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000129-0ea280ea2b/700/21102.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000128-d94e7d94e9/21102.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/10c6cc5a2405faf6dcf721685c825ed6e66876275ecd73576ccf77c5af5a60f0.jpg",
+        "bytes": 625965,
+        "sha256": "10c6cc5a2405faf6dcf721685c825ed6e66876275ecd73576ccf77c5af5a60f0",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 21,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_39611779249100950_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000128-d94e7d94e9/21102.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-039",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000130-60b0d60b0f/18224.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000130-60b0d60b0f/18224.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000130-60b0d60b0f/18224.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/8a4fdccfe614179d5a62541b5a7f152bac42ceb7acb4c00e003662acd9fab09d.jpg",
+            "bytes": 1195487,
+            "sha256": "8a4fdccfe614179d5a62541b5a7f152bac42ceb7acb4c00e003662acd9fab09d",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000131-bdb48bdb4a/18224.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000131-bdb48bdb4a/18224.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/a96b2c1244ff748ba3d070534bfabf21510086aa11b9ea298647f8d8c39eab19.webp",
+            "bytes": 1043630,
+            "sha256": "a96b2c1244ff748ba3d070534bfabf21510086aa11b9ea298647f8d8c39eab19",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000131-bdb48bdb4a/450/18224.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000131-bdb48bdb4a/700/18224.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000130-60b0d60b0f/18224.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/8a4fdccfe614179d5a62541b5a7f152bac42ceb7acb4c00e003662acd9fab09d.jpg",
+        "bytes": 1195487,
+        "sha256": "8a4fdccfe614179d5a62541b5a7f152bac42ceb7acb4c00e003662acd9fab09d",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/fotogalerie/",
+          "kind": "img",
+          "order": 22,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_86581779249350813_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000130-60b0d60b0f/18224.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-040",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000108-f415ef415f/1000082437.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000108-f415ef415f/1000082437.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000108-f415ef415f/1000082437.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/842b708593c7c7993ee3644e0f6ec998998537bc44da5ebf81ec415c65b91b5f.jpg",
+            "bytes": 630869,
+            "sha256": "842b708593c7c7993ee3644e0f6ec998998537bc44da5ebf81ec415c65b91b5f",
+            "format": "JPEG",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000109-4518145184/1000082437.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000109-4518145184/1000082437.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/cfea7e71b9d3f033a30c7f850e2d432ee21400327df274410ad72cbb846a30e2.webp",
+            "bytes": 432782,
+            "sha256": "cfea7e71b9d3f033a30c7f850e2d432ee21400327df274410ad72cbb846a30e2",
+            "format": "WEBP",
+            "dimensions": [
+              1440,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000109-4518145184/450/1000082437.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000109-4518145184/700/1000082437.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000108-f415ef415f/1000082437.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/842b708593c7c7993ee3644e0f6ec998998537bc44da5ebf81ec415c65b91b5f.jpg",
+        "bytes": 630869,
+        "sha256": "842b708593c7c7993ee3644e0f6ec998998537bc44da5ebf81ec415c65b91b5f",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/vrh-a/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_30891772730199494_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000108-f415ef415f/1000082437.jpeg?ph=454501af52\" alt=\"\" width=\"1440\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-041",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000114-2152421526/502.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000114-2152421526/502.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000114-2152421526/502.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/4c3e206f9fa74e90f59c62fb0f55b64e18fdec54a796257867642de49b49b019.jpg",
+            "bytes": 276449,
+            "sha256": "4c3e206f9fa74e90f59c62fb0f55b64e18fdec54a796257867642de49b49b019",
+            "format": "JPEG",
+            "dimensions": [
+              670,
+              520
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000115-ec3c9ec3cb/700/502.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000115-ec3c9ec3cb/700/502.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/4a2d86aea82bf994d89ae0a0fcf603f0e86ca1c6e40ac24fede6910775a9f07d.webp",
+            "bytes": 88560,
+            "sha256": "4a2d86aea82bf994d89ae0a0fcf603f0e86ca1c6e40ac24fede6910775a9f07d",
+            "format": "WEBP",
+            "dimensions": [
+              670,
+              520
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000115-ec3c9ec3cb/450/502.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000115-ec3c9ec3cb/502.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000115-ec3c9ec3cb/502.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/4a2d86aea82bf994d89ae0a0fcf603f0e86ca1c6e40ac24fede6910775a9f07d.webp",
+            "bytes": 88560,
+            "sha256": "4a2d86aea82bf994d89ae0a0fcf603f0e86ca1c6e40ac24fede6910775a9f07d",
+            "format": "WEBP",
+            "dimensions": [
+              670,
+              520
+            ]
+          }
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000114-2152421526/502.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/4c3e206f9fa74e90f59c62fb0f55b64e18fdec54a796257867642de49b49b019.jpg",
+        "bytes": 276449,
+        "sha256": "4c3e206f9fa74e90f59c62fb0f55b64e18fdec54a796257867642de49b49b019",
+        "format": "JPEG",
+        "dimensions": [
+          670,
+          520
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/feny/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_78201779198772000_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000114-2152421526/502.jpeg?ph=454501af52\" alt=\"\" width=\"670\" height=\"520\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-042",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000112-eadafeadb1/15650.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000112-eadafeadb1/15650.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000112-eadafeadb1/15650.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/34a9ef5091c463f438a1902daa09a56cd432ddf3c95d631cb9bb2f9245657e31.jpg",
+            "bytes": 415189,
+            "sha256": "34a9ef5091c463f438a1902daa09a56cd432ddf3c95d631cb9bb2f9245657e31",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000113-0b1140b116/15650.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000113-0b1140b116/15650.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/c5ca342c2655c07b0f33ca5890e8b0f6ca47c07345a51820679710c72d32f7c2.webp",
+            "bytes": 278010,
+            "sha256": "c5ca342c2655c07b0f33ca5890e8b0f6ca47c07345a51820679710c72d32f7c2",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000113-0b1140b116/450/15650.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000113-0b1140b116/700/15650.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000112-eadafeadb1/15650.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/34a9ef5091c463f438a1902daa09a56cd432ddf3c95d631cb9bb2f9245657e31.jpg",
+        "bytes": 415189,
+        "sha256": "34a9ef5091c463f438a1902daa09a56cd432ddf3c95d631cb9bb2f9245657e31",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/feny/",
+          "kind": "img",
+          "order": 3,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_55881779198550227_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000112-eadafeadb1/15650.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-043",
+      "source_url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000116-8839a8839c/15647.jpeg?ph=454501af52",
+      "variants": [
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000116-8839a8839c/15647.jpeg?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000116-8839a8839c/15647.jpeg?ph=454501af52",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "archive_file": "media/5d2522f8dc484afbda48a565f510a62462f404c079d6e0eb95f8f5c47bab052a.jpg",
+            "bytes": 415945,
+            "sha256": "5d2522f8dc484afbda48a565f510a62462f404c079d6e0eb95f8f5c47bab052a",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000117-a1f68a1f6a/15647.webp?ph=454501af52",
+          "archived": {
+            "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000117-a1f68a1f6a/15647.webp?ph=454501af52",
+            "status": 200,
+            "content_type": "image/webp",
+            "archive_file": "media/74839f659ccb20c3ba6effa0216088c9bf941f777a6740c1cc36977b007d6192.webp",
+            "bytes": 278548,
+            "sha256": "74839f659ccb20c3ba6effa0216088c9bf941f777a6740c1cc36977b007d6192",
+            "format": "WEBP",
+            "dimensions": [
+              1080,
+              1920
+            ]
+          }
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000117-a1f68a1f6a/450/15647.webp?ph=454501af52",
+          "archived": null
+        },
+        {
+          "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000117-a1f68a1f6a/700/15647.webp?ph=454501af52",
+          "archived": null
+        }
+      ],
+      "selected_original": {
+        "url": "https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000116-8839a8839c/15647.jpeg?ph=454501af52",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "archive_file": "media/5d2522f8dc484afbda48a565f510a62462f404c079d6e0eb95f8f5c47bab052a.jpg",
+        "bytes": 415945,
+        "sha256": "5d2522f8dc484afbda48a565f510a62462f404c079d6e0eb95f8f5c47bab052a",
+        "format": "JPEG",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      "occurrences": [
+        {
+          "page": "/psi/",
+          "kind": "img",
+          "order": 2,
+          "alt": "",
+          "loading": "lazy",
+          "html": "<img id=\"wnd_ImageBlock_83721779199194842_img\" src=\"https://454501af52.clvaw-cdnwnd.com/0c652795321e8f24110777aabda8ab7e/200000116-8839a8839c/15647.jpeg?ph=454501af52\" alt=\"\" width=\"1080\" height=\"1920\" loading=\"lazy\" style=\"top:0%;left:0%;width:100%;height:100%;position:absolute;\">"
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejný web uvádí obecný kredit Pexels; přiřazení ke konkrétnímu souboru není doložené."
+    },
+    {
+      "id": "media-044",
+      "source_url": "https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+      "variants": [
+        {
+          "url": "https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+          "archived": {
+            "id": "embed-svg-001",
+            "url": "https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "archive_file": "supplemental-media/8b0dbddacbe1171025ded6fc42c5905627f8d236ad333d25b3a9a6f473ecd5a8.svg",
+            "bytes": 1518,
+            "sha256": "8b0dbddacbe1171025ded6fc42c5905627f8d236ad333d25b3a9a6f473ecd5a8",
+            "format": "SVG",
+            "occurrences": [
+              {
+                "page": "/kontakt/",
+                "order": 1,
+                "type": "image/svg+xml",
+                "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52\" id=\"wnd_ImageBlock_16391760119066233162_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+              }
+            ],
+            "source_credit": "open",
+            "rights": "open"
+          }
+        }
+      ],
+      "selected_original": {
+        "id": "embed-svg-001",
+        "url": "https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "archive_file": "supplemental-media/8b0dbddacbe1171025ded6fc42c5905627f8d236ad333d25b3a9a6f473ecd5a8.svg",
+        "bytes": 1518,
+        "sha256": "8b0dbddacbe1171025ded6fc42c5905627f8d236ad333d25b3a9a6f473ecd5a8",
+        "format": "SVG",
+        "occurrences": [
+          {
+            "page": "/kontakt/",
+            "order": 1,
+            "type": "image/svg+xml",
+            "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52\" id=\"wnd_ImageBlock_16391760119066233162_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/0p/0p7/0p7qql.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+          }
+        ],
+        "source_credit": "open",
+        "rights": "open"
+      },
+      "occurrences": [
+        {
+          "page": "/kontakt/",
+          "kind": "embed",
+          "order": 1
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejně vložená SVG ikona Webnode; původ a právo pro nový web nejsou doložené."
+    },
+    {
+      "id": "media-045",
+      "source_url": "https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+      "variants": [
+        {
+          "url": "https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+          "archived": {
+            "id": "embed-svg-002",
+            "url": "https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "archive_file": "supplemental-media/fe47e9424034cab3dc9167636479e18526a8247ef8c888c7d15386b3ee5d2540.svg",
+            "bytes": 2524,
+            "sha256": "fe47e9424034cab3dc9167636479e18526a8247ef8c888c7d15386b3ee5d2540",
+            "format": "SVG",
+            "occurrences": [
+              {
+                "page": "/kontakt/",
+                "order": 2,
+                "type": "image/svg+xml",
+                "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52\" id=\"wnd_ImageBlock_5141760119066234000_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+              }
+            ],
+            "source_credit": "open",
+            "rights": "open"
+          }
+        }
+      ],
+      "selected_original": {
+        "id": "embed-svg-002",
+        "url": "https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "archive_file": "supplemental-media/fe47e9424034cab3dc9167636479e18526a8247ef8c888c7d15386b3ee5d2540.svg",
+        "bytes": 2524,
+        "sha256": "fe47e9424034cab3dc9167636479e18526a8247ef8c888c7d15386b3ee5d2540",
+        "format": "SVG",
+        "occurrences": [
+          {
+            "page": "/kontakt/",
+            "order": 2,
+            "type": "image/svg+xml",
+            "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52\" id=\"wnd_ImageBlock_5141760119066234000_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/36/36l/36lve3.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+          }
+        ],
+        "source_credit": "open",
+        "rights": "open"
+      },
+      "occurrences": [
+        {
+          "page": "/kontakt/",
+          "kind": "embed",
+          "order": 2
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejně vložená SVG ikona Webnode; původ a právo pro nový web nejsou doložené."
+    },
+    {
+      "id": "media-046",
+      "source_url": "https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+      "variants": [
+        {
+          "url": "https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+          "archived": {
+            "id": "embed-svg-003",
+            "url": "https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "archive_file": "supplemental-media/aaba0c98702f5bd07fd21b7aa3c286aa2e0aa5ac4e9784665b827fa418472a24.svg",
+            "bytes": 1698,
+            "sha256": "aaba0c98702f5bd07fd21b7aa3c286aa2e0aa5ac4e9784665b827fa418472a24",
+            "format": "SVG",
+            "occurrences": [
+              {
+                "page": "/kontakt/",
+                "order": 3,
+                "type": "image/svg+xml",
+                "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52\" id=\"wnd_ImageBlock_17661760119066234756_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+              }
+            ],
+            "source_credit": "open",
+            "rights": "open"
+          }
+        }
+      ],
+      "selected_original": {
+        "id": "embed-svg-003",
+        "url": "https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "archive_file": "supplemental-media/aaba0c98702f5bd07fd21b7aa3c286aa2e0aa5ac4e9784665b827fa418472a24.svg",
+        "bytes": 1698,
+        "sha256": "aaba0c98702f5bd07fd21b7aa3c286aa2e0aa5ac4e9784665b827fa418472a24",
+        "format": "SVG",
+        "occurrences": [
+          {
+            "page": "/kontakt/",
+            "order": 3,
+            "type": "image/svg+xml",
+            "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52\" id=\"wnd_ImageBlock_17661760119066234756_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/3z/3z2/3z2m9w.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+          }
+        ],
+        "source_credit": "open",
+        "rights": "open"
+      },
+      "occurrences": [
+        {
+          "page": "/kontakt/",
+          "kind": "embed",
+          "order": 3
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejně vložená SVG ikona Webnode; původ a právo pro nový web nejsou doložené."
+    },
+    {
+      "id": "media-047",
+      "source_url": "https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+      "variants": [
+        {
+          "url": "https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+          "archived": {
+            "id": "embed-svg-004",
+            "url": "https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "archive_file": "supplemental-media/b76312c2ed1f44bee999af88984fc6c1fdd300fc0b410d5e34942daf3e141beb.svg",
+            "bytes": 2605,
+            "sha256": "b76312c2ed1f44bee999af88984fc6c1fdd300fc0b410d5e34942daf3e141beb",
+            "format": "SVG",
+            "occurrences": [
+              {
+                "page": "/kontakt/",
+                "order": 4,
+                "type": "image/svg+xml",
+                "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52\" id=\"wnd_ImageBlock_92751760119066235618_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+              }
+            ],
+            "source_credit": "open",
+            "rights": "open"
+          }
+        }
+      ],
+      "selected_original": {
+        "id": "embed-svg-004",
+        "url": "https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&border=d1b17f&outline=b88a43&color=c59d5f",
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "archive_file": "supplemental-media/b76312c2ed1f44bee999af88984fc6c1fdd300fc0b410d5e34942daf3e141beb.svg",
+        "bytes": 2605,
+        "sha256": "b76312c2ed1f44bee999af88984fc6c1fdd300fc0b410d5e34942daf3e141beb",
+        "format": "SVG",
+        "occurrences": [
+          {
+            "page": "/kontakt/",
+            "order": 4,
+            "type": "image/svg+xml",
+            "outer_html": "<embed alt=\"\" data-src=\"https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52\" id=\"wnd_ImageBlock_92751760119066235618_img\" src=\"https://duyn491kcolsw.cloudfront.net/files/0c/0c2/0c2b5m.svg?ph=454501af52&amp;border=d1b17f&amp;outline=b88a43&amp;color=c59d5f\" style=\"\" type=\"image/svg+xml\"/>"
+          }
+        ],
+        "source_credit": "open",
+        "rights": "open"
+      },
+      "occurrences": [
+        {
+          "page": "/kontakt/",
+          "kind": "embed",
+          "order": 4
+        }
+      ],
+      "source_credit": "open",
+      "rights": "open",
+      "rights_note": "Veřejně vložená SVG ikona Webnode; původ a právo pro nový web nejsou doložené."
+    }
+  ]
+}

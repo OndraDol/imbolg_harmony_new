@@ -1,0 +1,12 @@
+[
+  { "id": "home", "label": "Úvod", "path": "/", "output": "index.html", "title": "Imbolg Harmony", "heading": "Imbolg Harmony" },
+  { "id": "o-nas", "label": "O nás", "path": "/o-nas/", "output": "o-nas/index.html", "title": "O nás :: Imbolg Harmony", "heading": "O nás" },
+  { "id": "sluzby", "label": "Služby", "path": "/sluzby/", "output": "sluzby/index.html", "title": "Služby :: Imbolg Harmony", "heading": "Služby" },
+  { "id": "nase-prace", "label": "Naše práce", "path": "/nase-prace/", "output": "nase-prace/index.html", "title": "Naše práce :: Imbolg Harmony", "heading": "Naše práce" },
+  { "id": "fotogalerie", "label": "Fotogalerie", "path": "/fotogalerie/", "output": "fotogalerie/index.html", "title": "Fotogalerie :: Imbolg Harmony", "heading": "Fotogalerie" },
+  { "id": "cenik", "label": "Ceník", "path": "/cenik/", "output": "cenik/index.html", "title": "Ceník :: Imbolg Harmony", "heading": "Ceník" },
+  { "id": "kontakt", "label": "Kontakt", "path": "/kontakt/", "output": "kontakt/index.html", "title": "Kontakt :: Imbolg Harmony", "heading": "Kontakt" },
+  { "id": "vrh-a", "label": "Vrh A", "path": "/vrh-a/", "output": "vrh-a/index.html", "title": "Vrh A :: Imbolg Harmony", "heading": "Vrh A" },
+  { "id": "feny", "label": "Feny", "path": "/feny/", "output": "feny/index.html", "title": "Feny :: Imbolg Harmony", "heading": "Feny" },
+  { "id": "psi", "label": "Psi", "path": "/psi/", "output": "psi/index.html", "title": "Psi :: Imbolg Harmony", "heading": "Psi" }
+]

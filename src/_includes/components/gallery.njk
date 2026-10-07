@@ -1,0 +1,6 @@
+{% from "components/image.njk" import image %}
+{% macro gallery(items, id) %}
+<div class="gallery" data-content-id="{{ id }}">
+  {% for item in items %}{{ image(item, false) }}{% endfor %}
+</div>
+{% endmacro %}

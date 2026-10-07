@@ -1,0 +1,22 @@
+<form action="/api/contact.php" method="post" class="contact-form" aria-label="Kontaktní formulář">
+  <div class="form-summary" role="alert">__SUMMARY__</div>
+  <div>
+    <label for="contact-name"><span data-content-id="home-node-015">Jméno a příjmení</span></label>
+    <input id="contact-name" name="name" type="text" required maxlength="200" autocomplete="name" value="__NAME__" aria-describedby="name-error" __NAME_INVALID__>
+    <p id="name-error" class="field-error">__NAME_ERROR__</p>
+  </div>
+  <div>
+    <label for="contact-email"><span data-content-id="home-node-016">E-mail</span></label>
+    <input id="contact-email" name="email" type="email" required maxlength="254" autocomplete="email" value="__EMAIL__" aria-describedby="email-error" __EMAIL_INVALID__>
+    <p id="email-error" class="field-error">__EMAIL_ERROR__</p>
+  </div>
+  <div>
+    <label for="contact-message"><span data-content-id="home-node-017">Zpráva</span></label>
+    <textarea id="contact-message" name="message" maxlength="10000" rows="6" aria-describedby="message-error" __MESSAGE_INVALID__>__MESSAGE__</textarea>
+    <p id="message-error" class="field-error">__MESSAGE_ERROR__</p>
+  </div>
+  <div class="contact-honeypot" aria-hidden="true" inert>
+    <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off" maxlength="200" aria-label="Webová stránka">
+  </div>
+  <button type="submit"><span data-content-id="home-node-018">Odeslat</span></button>
+</form>

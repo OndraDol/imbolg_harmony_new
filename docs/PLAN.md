@@ -1,6 +1,6 @@
 # Schválený plán: Imbolg Harmony
 
-Zadání a rozhodnutí: 2026-10-06. Plán popisuje celý projekt. Aktuální oprávnění a stav určují poslední zadání uživatele a [STATUS](STATUS.md). Tato relace realizuje pouze A1.
+Zadání a rozhodnutí: 2026-10-06. Plán popisuje celý projekt. Aktuální oprávnění a stav určují poslední zadání uživatele a [STATUS](STATUS.md). A1, veřejná A2, technická A3, veřejný obsah A4, lokální formulář A5 a kontrola/předání A6 jsou dokončené. B1 čeká na samostatné zadání; produkční SMTP a skutečné doručení neověřené.
 
 ## Cíl a rozsah
 
@@ -31,7 +31,7 @@ Doména i Praktik u Gigaserveru jsou alternativa přibližně za 447 Kč ročně
 | [C1](phases/C1.md) | Konkrétní migrační postup | B2; dílčí read-only zjištění lze získat dřív při zadaném průzkumu |
 | [C2](phases/C2.md) | Autorizované přepnutí a ověřený provoz | C1 a nové explicitní oprávnění |
 
-Fáze má samostatné vstupy, kroky, výstupy, kontroly a bod zastavení. Neprovádět následující fázi „pro úplnost“. Současná inicializace nevytváří webový kód ani nenakupuje služby.
+Fáze má samostatné vstupy, kroky, výstupy, kontroly a bod zastavení. Neprovádět následující fázi „pro úplnost“. A1 a A2 nevytvořily webový kód ani nenakoupily služby. A3 vytvořila pouze technickou kostru a nic nenasadila.
 
 ## Co znamená zachovat 100 %
 

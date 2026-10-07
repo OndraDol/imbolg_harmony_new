@@ -1,0 +1,22 @@
+{
+  "name": "imbolg-harmony",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lokální statický základ webu Imbolg Harmony",
+  "scripts": {
+    "dev": "eleventy --serve --config=.eleventy.cjs",
+    "build": "node scripts/build_a3.mjs",
+    "verify": "npm run build && node scripts/verify_a3.mjs && npm run verify:content && python tests/test_form_a5.py",
+    "verify:content": "python scripts/verify_content_a4.py",
+    "test:form": "npm run build && python tests/test_form_a5.py",
+    "preview:form": "npm run build && python scripts/form_fixture_a5.py --preview",
+    "release": "npm run build && node scripts/verify_a3.mjs && npm run verify:content && python scripts/release_a6.py",
+    "verify:browser": "npm run build && node scripts/verify_a3.mjs && npm run verify:content && python scripts/release_a6.py && python tests/browser_a6.py"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "snapshot": "archive\\2026-10-06T13-40-23Z",
+  "technical_exclusions": [
+    {
+      "item": "Webnode JavaScript a provozní skripty",
+      "reason": "Provozní technika zdrojového systému; není autorský obsah."
+    },
+    {
+      "item": "Cookie dialog a jeho technické ovládání",
+      "reason": "Ovládací vrstva Webnode; právní texty a veřejné odkazy zůstávají v raw HTML a pages.json."
+    },
+    {
+      "item": "GTM iframe a měřicí skripty",
+      "reason": "Měřicí technika; archivovaný raw HTML dokládá přítomnost, nepřenáší se automaticky."
+    }
+  ],
+  "preserved_public_material": [
+    "Pexels kredit v patičce",
+    "Veřejné odkazy a jejich cíle",
+    "Formulářová pole a povinnost vyplnění",
+    "Čtyři SVG ikony kontaktu",
+    "URL a vykreslený snímek vložené mapy Google"
+  ],
+  "note": "Výluky se týkají budoucí implementace; tento A2 archiv uchovává raw HTML včetně technických částí."
+}

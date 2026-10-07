@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href="/"><img src="/assets/images/media-001-700.webp" srcset="/assets/images/media-001-700.webp 700w, /assets/images/media-001-1400.webp 1400w" sizes="4rem" width="1440" height="1920" alt="" data-media-id="media-001" data-media-order="1"><span>Imbolg Harmony</span></a>
+    <nav class="desktop-nav" aria-label="Hlavní navigace">
+      {% for item in sitePages %}
+      <a href="{{ item.path }}"{% if currentPage and item.path == currentPage.path %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+    <details class="mobile-menu">
+      <summary>Menu</summary>
+      <nav aria-label="Hlavní navigace">
+        {% for item in sitePages %}
+        <a href="{{ item.path }}"{% if currentPage and item.path == currentPage.path %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </details>
+  </div>
+</header>

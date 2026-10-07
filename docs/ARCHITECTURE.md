@@ -1,6 +1,6 @@
 # Technické zadání budoucí implementace
 
-Stav: návrh, žádný webový kód zatím nevznikl. Verze závislostí prověřit a uzamknout při A3/A5. V A1 nic neinstalovat.
+Stav: A3–A6 jsou dokončené v místním rozsahu. A6 přidala release builder, společnou public/private fixture a browser audit v osmi samostatných procesech, všechny PASS. Eleventy 3.1.6 je uzamčené v `package-lock.json`, PHPMailer 7.1.0 v `server/composer.lock`. Důkazy jsou v STATUS, FORM a CLAUDE-HANDOFF. B1 ani nasazení nezačaly.
 
 ## Rozdělení souborů
 
@@ -80,6 +80,8 @@ Endpoint má relativní smlouvu načtení `dirname(__DIR__, 2) . '/private/app/b
 
 Nasazovací mapa: obsah release/public nahrát do potvrzeného DocumentRoot; obsah release/private do adresáře private vedle DocumentRoot pod stejným rodičem. Samotný webový adresář na hostingu se může jmenovat jinak než public, vzájemná poloha však musí zůstat stejná. C1 ověří přístup k oběma místům a absenci kolize s cizími soubory. Pokud host tuto polohu neumožňuje, C2 nesmí pokračovat bez konkrétně opravené a otestované mapy.
 
-A5 testuje stejný strom v oddělené lokální fixture, kde je DocumentRoot výhradně public a config používá pouze syntetický capture transport. A6 sestaví release bez skutečných přístupů a bez testovacích zpráv; config.php pro produkci doplní až C2 bezpečně mimo veřejný prostor. Nejde o oprávnění balík už v A6 nahrát.
+A5 a A6 testují stejný strom v oddělené lokální fixture přes společnou funkci populate v scripts/release_a6.py. DocumentRoot je výhradně public, config používá jen syntetický capture transport. A6 sestavuje release bez skutečných přístupů a bez testovacích zpráv; config.php pro produkci doplní až C2 bezpečně mimo veřejný prostor. Nejde o oprávnění balík v A6 nahrát. Builder porovná instalovaný PHP package name/version/reference s lockfilem, odmítá symlinky/junctions a nepřepisuje konfigurovaný release. Značka release/.generated-a6 nepatří do uploadu; manifest je mimo release v artifacts/a6.
+
+Produkční dist obsahuje .htaccess s Options -Indexes, DirectoryIndex index.html a ErrorDocument 404 /404.html, samostatnou 404 stránku s noindex, sitemap deseti obsahových URL a robots bez blokace veřejného obsahu. Testový tests/php_router_a6.php emuluje 404 pouze v lokálním PHP serveru a není v balíku. C1 musí na skutečném webserveru potvrdit povolení těchto direktiv, odpověď neznámé URL s HTTP 404 a vlastním tělem, nepřístupnost private a nepřítomnost directory listing. Browserová emulace sama podporu hostingu nedokazuje.
 
 Limit 80 MB zahrnuje celý skutečně nahrávaný balík včetně PHP závislostí. Originální archiv na hosting nepatří. Kanonický host je `https://www.imbolg-harmony.cz`. Náhled chránit před indexací, produkční release nesmí omylem obsahovat náhledové noindex nebo blokující robots.

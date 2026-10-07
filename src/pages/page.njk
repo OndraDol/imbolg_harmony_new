@@ -1,0 +1,11 @@
+---
+layout: base.njk
+pagination:
+  data: sitePages
+  size: 1
+  alias: currentPage
+permalink: "{{ currentPage.output }}"
+eleventyComputed:
+  title: "{{ currentPage.title }}"
+---
+{{ pageContent[currentPage.id] | safe }}

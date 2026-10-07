@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  {% if currentPage %}
+  <meta name="description" content="{{ sourceMetadata[currentPage.path].description }}">
+  <link rel="canonical" href="{{ sourceMetadata[currentPage.path].canonical }}">
+  {% else %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#hlavni-obsah">Přejít na hlavní obsah</a>
+  {% include "header.njk" %}
+  <main id="hlavni-obsah" class="site-main" tabindex="-1" aria-label="{{ title }}">
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+</body>
+</html>

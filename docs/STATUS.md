@@ -1,10 +1,10 @@
 # Aktuální stav
 
-Poslední aktualizace: 2026-10-07. C1 DONE po odpovědi Webnode předané uživatelem: doména a DNS správa mohou zůstat u Webnode bez Premium, jeho doménová pošta Premium potřebuje. Před případným ukončením Standardu ověřit používané adresy/přesměrování. Účty, správce, náklady, migrace, návrat a záloha s obnovou všech 3 074 souborů jsou doložené v MIGRATION/WORKLOG. B2 DONE, C2 TODO. Samostatně autorizované Pages jsou IN_PROGRESS: celý web s neaktivním formulářem bez změny původní domény a pošty. Tento soubor je autoritativní pro stav.
+Poslední aktualizace: 2026-10-07. C1 DONE po odpovědi Webnode předané uživatelem: doména a DNS správa mohou zůstat u Webnode bez Premium, jeho doménová pošta Premium potřebuje. Před případným ukončením Standardu ověřit používané adresy/přesměrování. Účty, správce, náklady, migrace, návrat a záloha s obnovou všech 3 074 souborů jsou doložené v MIGRATION/WORKLOG. B2 DONE, C2 TODO. Samostatně autorizované Pages DONE: celý web veřejně na https://ondradol.github.io/imbolg_harmony_new/, neaktivní formulář, HTTPS a všechny veřejné soubory i vykreslení ověřené. Původní doména a pošta beze změny. Tento soubor je autoritativní pro stav.
 
 ## Rozsah aktuální relace
 
-Nové samostatné zadání 2026-10-07: veřejný repozitář OndraDol/imbolg_harmony_new a celý aktuální schválený web na GitHub Pages; uživatel výslovně zvolil formulář zatím neaktivní. Povolené jsou potřebné implementační/dokumentační commity, push a publikace na github.io. Webnode, doména, DNS, registrátor a SMTP se nemění. Public repozitář je ověřený. Probíhá oddělený export s prefixem /imbolg_harmony_new/ a kontrolou úplného obsahu i neaktivního formuláře. Následná odpověď podpory uzavřela DNS podmínku C1; C2 zůstává TODO.
+Nové samostatné zadání 2026-10-07: veřejný repozitář OndraDol/imbolg_harmony_new a celý aktuální schválený web na GitHub Pages; uživatel výslovně zvolil formulář zatím neaktivní. Povolené jsou potřebné implementační/dokumentační commity, push a publikace na github.io. Webnode, doména, DNS, registrátor a SMTP se nemění. Public repozitář je ověřený. Oddělený export s prefixem /imbolg_harmony_new/ je publikovaný z gh-pages; kompletní obsah, neaktivní formulář, 147 veřejných souborů přes HTTPS, vlastní 404 a všech deset vykreslených stránek ověřené. Následná odpověď podpory uzavřela DNS podmínku C1; C2 zůstává TODO.
 
 Uživatel výslovně objednal pouze C1: read-only ověření účtů, domény, DNS, expirací, schránek, kapacit, záloh a nákladů, konkrétní postup migrace a návratu včetně pošty a průběžnou dokumentaci. Původní rozsah nepovoloval zprávy ani commit/push. Pozdější pokyn „Ten dotaz můžeš odeslat ty jménem majitelky“ povolil jeden konkrétní dotaz Webnode, nyní odeslaný a přijatý. Následný pokyn „aktualizuj dokumentaci … push … počkáme na odpověď“ povoluje commit/push dokumentace a historie. Objednávky, další zprávy, SMTP testy, nahrání na hosting, změny DNS/registrátora a C2 zůstávají mimo rozsah. Vstupní B2-2026-10-07-ef779044 schválila majitelka prostřednictvím uživatele 2026-10-07 zprávou „Je to schváleno.“ Záznam zůstává v B2-REVIEW a WORKLOG.
 
@@ -38,7 +38,7 @@ Historický release B1 má 239 souborů / 50 430 625 B, package SHA-256 `bade1c1
 | Dodatečný dotaz Webnode v C1 | DONE | Přijetí jediného povoleného dotazu ověřené. Uživatel předal odpověď: doména/DNS mohou zůstat u Webnode bez Premium, jeho doménové e-mailové služby Premium vyžadují. Soukromý snímek se nepublikuje, závěr je v MIGRATION/WORKLOG. |
 | C2 Přepnutí | TODO | Vyžaduje nové explicitní oprávnění |
 | Dodatečné zveřejnění repozitáře | DONE | Na výslovný pokyn public; GitHub API private=false / visibility=public, anonymní API přístup a Chrome štítek Public. artifacts/github-pages/repository-public-readback-2026-10-07.json a snímek. Celá dosažitelná historie zkontrolovaná bez materiálního nálezu. |
-| Dodatečné GitHub Pages | IN_PROGRESS | Uživatel výslovně určil celý aktuální web a následně zvolil kompletní vzhled/obsah s formulářem zatím neaktivním. Připravuje se oddělený statický výstup s prefixem /imbolg_harmony_new/, úplným obsahem a ověřením před publikací. PHP/SMTP není součástí Pages; Webnode/doména se nepřepínají. |
+| Dodatečné GitHub Pages | DONE | [Celý web](https://ondradol.github.io/imbolg_harmony_new/), gh-pages 65b49c898fe8b3c628a69e721470839ea60d5577; workflow 37630497020 success, Pages built / HTTPS true / CNAME null. 148 statických souborů, 147 veřejně servírovaných se shodnými SHA-256, vlastní HTTP 404. Chrome: 10/10 stránek, mobilní menu/galerie/plná fotografie a neaktivní formulář, živá mapa. Manifest/live/browser důkazy v artifacts/github-pages, postup/návrat v PAGES. |
 
 ## Dokončená B2
 
@@ -61,7 +61,7 @@ Schválená identita: `ef7790446ba6470d3cee43694c399722296831a98176af803efc7a08e
 
 ## Následující krok
 
-Pro dodatečné Pages dokončit celý aktuální schválený web podle výslovné volby uživatele, s prefixem /imbolg_harmony_new/, neaktivním formulářem a použitelným stávajícím e-mailovým kontaktem. Po obsahové/bezpečnostní kontrole publikovat jen veřejné statické soubory a ověřit všechny URL/assety přes HTTPS i vykreslení v Chromu. Původní doména, DNS, Webnode a pošta se nepřepínají.
+Dodatečné Pages jsou dokončené a zveřejněné: [úplný web](https://ondradol.github.io/imbolg_harmony_new/). Žádný další Pages krok není nyní otevřený. Formulář zůstává výslovně neaktivní se stávajícím e-mailovým kontaktem. Budoucí aktualizace nebo jeho spuštění vyžadují nové zadání; podrobnosti v PAGES. C1 DONE, původní doména/DNS/Webnode/pošta se nepřepnuly a C2 TODO.
 
 B2 je uzavřená a chráněná identita zdrojů zachovaná. C1 DONE po vyhodnocení odpovědi Webnode. Konkrétní pořadí i návrat včetně pošty jsou v MIGRATION, přístupy v ACCESS. Nový Seznam účet, správce a skutečná místní šifrovaná kopie s kompletní obnovou jsou hotové. Neopakovat registraci, volbu registrátora, oprávnění médií ani export neměněné historie Seznamu.
 

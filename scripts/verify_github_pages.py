@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import re
 from urllib.parse import quote, unquote, urlsplit
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
@@ -121,6 +122,7 @@ def main():
     sitemap = ET.parse(OUTPUT / "sitemap.xml")
     require([e.text for e in sitemap.findall(".//{*}loc")] == [SITE + page["path"].lstrip("/") for page in pages], "Sitemap is incomplete")
     live = []
+    not_found = None
     if args.live:
         def fetch(item):
             request = Request(SITE + quote(item["path"], safe="/"), headers={"User-Agent": "Imbolg-Harmony-release-verification"})
@@ -131,7 +133,14 @@ def main():
             return {"path": item["path"], "status": 200, "sha256": item["sha256"]}
         with ThreadPoolExecutor(max_workers=6) as pool:
             live = list(pool.map(fetch, [item for item in manifest["files"] if item["path"] != ".nojekyll"]))
-    receipt = {"verified_utc": datetime.now(timezone.utc).isoformat(), "result": "PASS", "identity": manifest["identity"], "files": len(actual), "pages": len(pages), "html": sum(p.endswith(".html") for p in actual), "form": "inactive", "live_files": live}
+        try:
+            with urlopen(SITE + "__pages-not-found-check__/", timeout=30):
+                raise AssertionError("Unknown route did not return HTTP 404")
+        except HTTPError as error:
+            require(error.code == 404, "Wrong error status for an unknown route")
+            require(sha256(error.read()).hexdigest() == sha256((OUTPUT / "404.html").read_bytes()).hexdigest(), "Custom 404 differs from the verified page")
+            not_found = {"status": 404, "custom_page": True}
+    receipt = {"verified_utc": datetime.now(timezone.utc).isoformat(), "result": "PASS", "identity": manifest["identity"], "files": len(actual), "pages": len(pages), "html": sum(p.endswith(".html") for p in actual), "form": "inactive", "live_files": live, "not_found": not_found}
     name = "live-verification.json" if args.live else "local-verification.json"
     (ARTIFACTS / name).write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(receipt | {"live_files": len(live)}, ensure_ascii=False))

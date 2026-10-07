@@ -1,6 +1,6 @@
 # GitHub Pages
 
-Samostatné zadání 2026-10-07 povoluje publikaci celého schváleného webu na https://ondradol.github.io/imbolg_harmony_new/ s formulářem zatím neaktivním. Aktuální stav a důkaz publikace jsou v STATUS/WORKLOG. Tento výstup nepřepíná původní doménu u Webnode a není doménová migrace C2.
+Samostatné zadání 2026-10-07 bylo dokončené: [celý schválený web](https://ondradol.github.io/imbolg_harmony_new/) je veřejný, formulář zatím neaktivní. Zdroj main při prvním zveřejnění cd6695d95eca6ceda5afb70838bac71e6ca2cc9a, veřejný gh-pages commit 65b49c898fe8b3c628a69e721470839ea60d5577. [Workflow 37630497020](https://github.com/OndraDol/imbolg_harmony_new/actions/runs/37630497020) dokončil build i deploy úspěšně; Pages API status built, HTTPS vynucené, CNAME prázdné. Výstup má 148 souborů / 49 903 735 B, identitu 0ad525d0c40d739daeeba32cb463316e812d5529fda0858d5f66057139f634d9. HTTPS kontrola 147 servírovaných souborů i vlastní 404 PASS, všechny stránky vykreslené v Chromu a ověřené mobilní menu/galerie/formulář; živá kontaktní mapa načtená. Důkazy v artifacts/github-pages, historie ve WORKLOG. Původní doména a pošta se nepřepínají, C2 nezačala.
 
 ## Obsah a formulář
 

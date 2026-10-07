@@ -1,6 +1,6 @@
 # Aktuální stav
 
-Poslední aktualizace: 2026-10-07, C1 BLOCKED čeká na odpověď Webnode po dokončení dostupných kritérií a odeslání jednoho výslovně povoleného dotazu jménem majitelky. Snímek 3 074 souborů ve 12 šifrovaných dílech má kompletní obnovu na disk do odděleného cíle s kontrolou každého hashe a velikosti. Správce/návrh soukromí, nový Seznam účet a DPAPI přístup jsou připravené. Webnode potvrdil přijetí dotazu a uvádí odpověď na kralovamarket@seznam.cz během následujících 48 hodin. Vlastní potvrzení DNS/editace po skončení Standardu zatím chybí. Uživatel nově autorizoval dokumentační commit/push; po jeho dokončení další dostupný krok C1 nezbývá a čeká se na konkrétní odpověď uvedenou níže. B2 zůstává DONE, C2 TODO. Tento soubor je autoritativní pro stav; plán a zadání fází samy nejsou důkazem realizace.
+Poslední aktualizace: 2026-10-07, C1 BLOCKED čeká na odpověď Webnode po dokončení dostupných kritérií a odeslání jednoho výslovně povoleného dotazu jménem majitelky. Snímek 3 074 souborů ve 12 šifrovaných dílech má kompletní obnovu na disk do odděleného cíle s kontrolou každého hashe a velikosti. Správce/návrh soukromí, nový Seznam účet a DPAPI přístup jsou připravené. Webnode potvrdil přijetí dotazu a uvádí odpověď na kralovamarket@seznam.cz během následujících 48 hodin. Vlastní potvrzení DNS/editace po skončení Standardu zatím chybí. Dokumentační commit 3928fcd byl skutečně pushnutý a vzdálený hash ověřený; závěrečná uzávěrka ukládá tento důkaz do historie. Další dostupný věcný krok C1 nezbývá a čeká se na konkrétní odpověď uvedenou níže. B2 zůstává DONE, C2 TODO. Tento soubor je autoritativní pro stav; plán a zadání fází samy nejsou důkazem realizace.
 
 ## Rozsah aktuální relace
 
@@ -9,6 +9,8 @@ Uživatel výslovně objednal pouze C1: read-only ověření účtů, domény, D
 Výchozí B1 je varianta 1B Fotka od Claude s lokálně opraveným mobilním menu a čtyřmi ořezy. Její dokončené důkazy jsou níže a zůstávají zachované v artifacts/b1; historická A6 v artifacts/b1/a6-before a a5-before. Přesný model Claude není v dodaném balíku doložený, původ návrhu od Claude potvrdil uživatel. B2 ověřuje konkrétní výsledek, ne modelovou provenienci.
 
 GitHub repozitář byl dokončený v předchozí relaci: soukromý [OndraDol/imbolg_harmony_new](https://github.com/OndraDol/imbolg_harmony_new), první import `e81b9cc95ee0f38f15f1a2747b40ba62b207561e`, dokumentační uzávěrka a výchozí místní HEAD B1 `c85e298300508adb53c5938df8ee4f9105c4dab6`. Historické externí readbacky jsou ve WORKLOG. V B1 se GitHub znovu neověřoval a změny tehdy zůstaly místní; nynější oprávnění se týká dokumentace, skutečný commit/push a jeho readback se zaznamenávají ve WORKLOG. Přístupy, archiv a artefakty jsou ignorované Gitem; GitHub není úplná záloha místních důkazů.
+
+Na nový pokyn uživatele byl 2026-10-07 vytvořený a pushnutý [dokumentační commit 3928fcd](https://github.com/OndraDol/imbolg_harmony_new/commit/3928fcd8936ff52af619962dfba731fd961ab4ce), 13 dokumentů včetně historie B1/B2/C1 a B2-REVIEW. Čerstvý git ls-remote ve 12:42:35 UTC potvrdil stejný celý hash na origin/main. Implementace B1/B2 ani ignorované důkazy/přístupy tím pushnuté nejsou. Tato následná dokumentační uzávěrka uchovává výsledek prvního push; finální technický readback je v artifacts/c1/documentation-push-readback-2026-10-07.json.
 
 ## Dokončená A6
 

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://ondradol.github.io/imbolg_harmony_new/sitemap.xml

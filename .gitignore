@@ -10,6 +10,7 @@
 # Originální archiv a neveřejné důkazy (zálohovat samostatně)
 /archive/
 /artifacts/
+/.codex-remote-attachments/
 
 # Nástroje, závislosti a generované balíky budoucích fází
 /.tools/

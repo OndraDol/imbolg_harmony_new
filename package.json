@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "eleventy --serve --config=.eleventy.cjs",
     "build": "node scripts/build_a3.mjs",
+    "build:pages": "npm run build && python scripts/build_github_pages.py",
+    "verify:pages": "npm run build:pages && node scripts/verify_a3.mjs && npm run verify:content && python scripts/verify_github_pages.py",
     "verify": "npm run build && node scripts/verify_a3.mjs && npm run verify:content && python tests/test_form_a5.py",
     "verify:content": "python scripts/verify_content_a4.py",
     "test:form": "npm run build && python tests/test_form_a5.py",

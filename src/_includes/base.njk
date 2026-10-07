@@ -12,7 +12,7 @@
   {% endif %}
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
-<body>
+<body{% if currentPage %} data-page="{{ currentPage.id }}"{% endif %}>
   <a class="skip-link" href="#hlavni-obsah">Přejít na hlavní obsah</a>
   {% include "header.njk" %}
   <main id="hlavni-obsah" class="site-main" tabindex="-1" aria-label="{{ title }}">

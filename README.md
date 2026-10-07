@@ -10,6 +10,8 @@ Začni soubory [AGENTS.md](AGENTS.md), [stav](docs/STATUS.md) a [plán](docs/PLA
 
 Na pozdější výslovný pokyn byl 2026-10-07 odeslaný jeden dotaz Webnode jménem majitelky; přijetí je doložené a odpověď na kralovamarket@seznam.cz má podle potvrzení přijít během následujících 48 hodin. C1 čeká na konkrétní DNS/mailové podmínky, C2 zůstává TODO. Uživatel povolil push dokumentace a pracovní historie; místní implementace B1/B2, přístupy a ignorované důkazy nejsou součástí tohoto dokumentačního push. Podrobnosti a skutečný Git readback jsou ve WORKLOG/STATUS.
 
+Samostatné pozdější zadání 2026-10-07 povolilo veřejný repozitář a GitHub Pages. [Repozitář](https://github.com/OndraDol/imbolg_harmony_new) už je public a čerstvý readback ověřil přístup bez přihlášení; před zveřejněním byla prověřená celá dosažitelná historie. Pages zatím nejsou publikované: v projektu není samostatný článek a čeká se na upřesnění, zda zveřejnit celý nový web jako statický náhled, nebo konkrétní jiný text. Statické Pages neprovozují PHP/SMTP. Původní doména a DNS se tím nemění, C1 stále čeká na Webnode a C2 nezačala. Konkrétní pokračování je v STATUS.
+
 ## Rozhodnutí uživatele
 
 - Obsah bude upravovat uživatel přes AI; administrace není požadovaná.

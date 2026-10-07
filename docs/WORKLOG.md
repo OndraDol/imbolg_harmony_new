@@ -881,3 +881,25 @@ Osobně prohlédnuté finální skutečné snímky všech čtyř šířek a 360 
 ## 2026-10-07 / Připomínky / finální místní PASS
 
 Finální stávající A6 kontrola prošla všech osm izolovaných skupin, 160 stránkových scénářů, 16 syntetických formulářových scénářů, 456 obrazových výskytů a 208 otevření plných galerií. Žádná nečekaná console/page/network chyba. Přesná identita zdrojů/evidence/dist/vendor 8690087cf26dbe0e55311797dacb23fc5d7e08eca9db2961b73aafedbe18db03; kopie výsledku artifacts/feedback-2026-10-07/a6-browser-results.json. Pomocná Pages kontrola po změně podávání CSS prošla všech 24 režimů (čtyři šířky, JS on/off, normal/text200/zoom200), osm kontrol neaktivního formuláře, obdélníkový snímek 112 × přibližně 149 px bez ořezu, nerozdělená slova značky, menu a vazbu zdravotních testů Amy; local-browser.json a osobně prohlédnuté PNG. Zdrojový obsah se od HEAD liší pouze přesným BZ 4x → 5x, nezměněné hashe evidence potvrzené. Git diff --check bez chyby. Následuje commit právě devíti potřebných zdrojových/dokumentačních souborů, příprava ověřené větve gh-pages, normální push a živá kontrola. Místní PASS ještě neznamená nasazení.
+
+
+## 2026-10-07 / Připomínky / commit a normální push
+
+Zdrojový commit d83284995268f9ea8bbde2f0233afbb1d316f1b1 obsahuje právě devět oznámených souborů, bez přístupů, archivů a soukromých příloh. prepare_github_pages.py ověřil každý blob proti úspěšnému manifestu a vytvořil gh-pages d0b8ba65f000caee8cf175f325c5c1562a7fa917, tree a8374d43f2bd8e4547d4787ffc2193a3acd1c01f, rodič předchozího vydání 65b49c898fe8b3c628a69e721470839ea60d5577; hlavní index/checkout nepřepínal. Běžný git push origin main gh-pages uspěl bez force. Čerstvý ls-remote potvrdil oba přesné hashe. Pages konfigurace před push: gh-pages kořen /, HTTPS true, CNAME null; žádná hostingová/doménová konfigurace se neměnila. Důkaz prepared-deployment.json mimo veřejný strom. Nyní čekat na dokončení workflow přesného gh-pages commitu, potom veřejný hashový a browserový readback.
+
+
+## 2026-10-07 / Připomínky / spuštění Pages sestavení
+
+Po potvrzeném push API i seznam Actions dosud ukazovaly pouze předchozí úspěšné vydání 65b49c8; nové nasazení nebylo doložené. Konfigurace zůstává legacy gh-pages kořen /, HTTPS true a CNAME null. Oficiální GitHub REST dokumentace https://docs.github.com/en/rest/pages/pages#request-a-github-pages-build potvrzuje možnost explicitně vyžádat sestavení bez dalšího commitu. V rámci objednané publikace provedený jeden POST /repos/OndraDol/imbolg_harmony_new/pages/builds, response status queued. Nezměnila se konfigurace služby ani oprávnění. Následuje kontrola konkrétního gh-pages d0b8ba65f000caee8cf175f325c5c1562a7fa917 a skutečného veřejného výsledku; queued není dokončené nasazení.
+
+
+## 2026-10-07 / Připomínky / nasazení správného commitu
+
+Workflow https://github.com/OndraDol/imbolg_harmony_new/actions/runs/37663896105 pro přesný gh-pages d0b8ba65f000caee8cf175f325c5c1562a7fa917 dokončil build, report-build-status i deploy se success. API má status built, původní gh-pages kořen /, HTTPS true a CNAME null; sanitizovaný readback artifacts/feedback-2026-10-07/pages-live-api.json. Nasazení je skutečné, hashová shoda a vykreslení se právě ověřují. HTTPS verifier používá přímé spojení s ponechanou TLS validací, protože firemní proxy v dřívějším průzkumu vracela 407; skutečný Chrome kontroluje veřejné Pages v odděleném headless kontextu. Následuje uzávěrka až po obou veřejných kontrolách.
+
+
+## 2026-10-07 / Připomínky / veřejný readback a dokončení
+
+Veřejný HTTPS verifier v 18:05:36 UTC PASS: všech 147 servírovaných souborů má přesný SHA-256 a velikost podle 148položkového manifestu identity 70f19ad2a7c331a7ea5d765676d22d0161a7720d2e6c3c4843f3fbdabbfbe5d8; vlastní 404 vrací skutečné HTTP 404 a správné HTML. Chrome čerstvě ověřil Feny na 360/390/768/1440 px, rozměry/nezdeformovaný celý obdélník, BZ 5x, odstraněnou čáru a vazbu zdravotních testů Amy, menu a čtyři neaktivní formuláře. Navíc skutečné vykreslení všech deseti veřejných stránek na 390 i 1440 px, 20/20 průchodů bez overflow a page errors. live-browser.json PASS, osobně prohlédnuté živé snímky mobilní/desktopové Feny a otevřeného menu. Kopie manifestu a místních/živých/preparačních receiptů zachované pod artifacts/feedback-2026-10-07/pages-*.json. Finální hashe všech evidence JSON zůstávají stejné.
+
+STATUS označuje připomínky DONE a PAGES zaznamenává aktuální vydání. Neaktivní formulář i původní doména/Webnode/DNS/pošta zachované; C2 TODO. Veřejný gh-pages zůstává na d0b8ba65f000caee8cf175f325c5c1562a7fa917, další public deploy není potřeba. Zbývá jen uzavírací commit/push těchto tří dokumentů a přesná kontrola main/gh-pages proti origin; skutečný výsledek této technické uzávěrky bude doložený artifacts/feedback-2026-10-07/final-git-readback.json, žádné plánované push se zde nevydává za hotové.

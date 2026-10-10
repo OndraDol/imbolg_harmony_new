@@ -2,7 +2,7 @@
 
 ## Aktuální postup C2 (2026-10-10)
 
-C2 je po dokončení technické přípravy BLOCKED na rozhodnutí o HTTPS/DNS a přijetí textu soukromí u formuláře. Praktik je objednaný a zaplacený do 10. 10. 2027. Nový public/private release má 239 souborů / 50 431 106 B; celý byl nahraný přes FTPES, každý soubor zpětně ověřený SHA-256. Všech deset stránek načtených z cílové IP bajtově souhlasí s releasem. PHP 8.3.33 běží a Seznam SMTP se ze serveru autentizoval bez odeslání zprávy. Konfigurace je mimo DocumentRoot a formulářový transport zůstává vypnutý. HTTPS, ruční doručení a změna veřejného DNS jsou otevřené; původní Webnode a pošta se nemění. Aktuální stav a důkazy jsou v [STATUS](docs/STATUS.md) a [WORKLOG](docs/WORKLOG.md).
+C2 má dokončené přepnutí webových DNS, platné HTTPS pro apex i www a živý formulář. Finální public/private release má 239 souborů / 50 433 232 B; všechny byly nahrané přes FTPES a zpětně ověřené SHA-256. Deset HTTPS stránek bajtově souhlasí s releasem, HTTP a apex vedou na kanonické HTTPS www. Soukromá SMTP konfigurace je mimo DocumentRoot a je aktivní; skutečné doručení musí nyní ručně ověřit uživatel. Původní Webnode a pošta zůstávají pro návrat. Aktuální stav a důkazy jsou v [STATUS](docs/STATUS.md) a [WORKLOG](docs/WORKLOG.md).
 
 Příprava úplné náhrady webu https://www.imbolg-harmony.cz/ a pozdějšího levného přesunu z Webnode. Obsah a současné menu jsou zachované; dodaný redesign od Claude je místně aplikovaný a ověřený.
 

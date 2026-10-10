@@ -1,5 +1,7 @@
 # Formulář A5
 
+Aktualizace C2 2026-10-10: produkční validační větev přijme přesně `imbolg.harmony.formular@seznam.cz` jen se shodným SMTP username, `smtp.seznam.cz:465/ssl`, `from_verified=true` a dosavadními ochrannými podmínkami. `npm run test:form` prošel včetně pozitivní a osmi negativních konfigurací bez síťového odeslání. Z hostingu prošlo `PHPMailer::smtpConnect()` včetně autentifikace; žádný e-mail nebyl odeslaný a doručení čeká na ruční test uživatele. Soukromá konfigurace je připravená s vypnutým transportem. Starší odstavce o odmítnutí Seznam From níže popisují stav A5/C1.
+
 Implementace používá PHP 8.3 a PHPMailer 7.1.0. A5 místně DONE: npm run verify prošel včetně deseti skupin A5 testů a skutečné opravy chyby/odeslání do capture v Chrome bez JavaScriptu. Důkazy: artifacts/a5/results.json, no-js-error.png, no-js-success.png a WORKLOG. POST /api/contact.php přijímá pouze application/x-www-form-urlencoded bez příloh. Jméno (200 Unicode znaků) a e-mail (254 bajtů) jsou povinné; zpráva (10 000 Unicode znaků) je volitelná podle A2. Limit celého zakódovaného těla je 64 KiB, takže velká zpráva se může do limitu těla nevejít. Stejný HTML partial v server/app/templates/contact-form.html používá statický úvod i PHP chybový návrat. Vstupy v návratu jsou escapované, transport vytváří prostý text. Nové required ani změny původních popisků nebyly přidány.
 
 ## Lokální prostředí

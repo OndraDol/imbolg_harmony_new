@@ -26,8 +26,9 @@ function configuration(array $config, string $peer): array
         }
         return $config;
     }
+    $seznamFrom = $from === 'imbolg.harmony.formular@seznam.cz';
     if (($config['transport'] ?? '') !== 'smtp' || ($config['from_verified'] ?? false) !== true
-        || !str_ends_with(strtolower($from), '@imbolg-harmony.cz')) {
+        || (!str_ends_with(strtolower($from), '@imbolg-harmony.cz') && !$seznamFrom)) {
         throw new \RuntimeException('Production disabled');
     }
     $smtp = $config['smtp'] ?? [];
@@ -41,6 +42,10 @@ function configuration(array $config, string $peer): array
         if (!is_string($smtp[$key] ?? null) || $smtp[$key] === '' || preg_match('/[\x00-\x1F\x7F]/', $smtp[$key])) {
             throw new \RuntimeException('Missing SMTP credentials');
         }
+    }
+    if ($seznamFrom && ($smtp['username'] !== $from || $smtp['host'] !== 'smtp.seznam.cz'
+        || $smtp['port'] !== 465 || $smtp['encryption'] !== 'ssl')) {
+        throw new \RuntimeException('Invalid Seznam sender configuration');
     }
     return $config;
 }

@@ -287,6 +287,45 @@ echo $caught;
         check(result.returncode == 0 and result.stdout == "2", "SMTP výjimka nebo false send nevede k chybě")
         self.record("capture-loopback-env-refusal-and-smtp-send-failures")
 
+    def test_seznam_sender_configuration_cli(self) -> None:
+        transport = self.private / "app" / "transport.php"
+        autoload = self.private / "vendor" / "autoload.php"
+        code = r"""
+require $argv[1]; require $argv[2];
+$base = [
+    'transport' => 'smtp', 'from' => 'imbolg.harmony.formular@seznam.cz',
+    'from_verified' => true, 'rate_key' => str_repeat('a', 32),
+    'rate_limit' => 5, 'rate_window' => 600,
+    'smtp' => ['enabled' => true, 'host' => 'smtp.seznam.cz', 'port' => 465,
+        'encryption' => 'ssl', 'username' => 'imbolg.harmony.formular@seznam.cz',
+        'password' => 'synthetic-only'],
+];
+$accepted = \Imbolg\configuration($base, '203.0.113.7');
+$mail = \Imbolg\message(['name' => 'Host', 'email' => 'visitor@example.invalid', 'message' => 'Text'], $accepted);
+if ($mail->From !== $base['from']
+    || $mail->getToAddresses()[0][0] !== 'kralovamarket@seznam.cz'
+    || $mail->getReplyToAddresses()[0][0] !== 'visitor@example.invalid') { exit(2); }
+$invalid = [];
+$case = $base; $case['smtp']['username'] = 'someone@seznam.cz'; $invalid[] = $case;
+$case = $base; $case['from'] = 'someone@seznam.cz'; $case['smtp']['username'] = 'someone@seznam.cz'; $invalid[] = $case;
+$case = $base; $case['from'] = 'visitor@example.invalid'; $invalid[] = $case;
+$case = $base; $case['smtp']['host'] = 'other.example.invalid'; $invalid[] = $case;
+$case = $base; $case['smtp']['port'] = 587; $invalid[] = $case;
+$case = $base; $case['smtp']['encryption'] = 'tls'; $invalid[] = $case;
+$case = $base; $case['from_verified'] = false; $invalid[] = $case;
+$case = $base; $case['smtp']['password'] = ''; $invalid[] = $case;
+foreach ($invalid as $case) {
+    try { \Imbolg\configuration($case, '203.0.113.7'); exit(3); }
+    catch (\RuntimeException $e) { /* Expected refusal without sending. */ }
+}
+echo 'OK';
+"""
+        result = subprocess.run(php_command() + ["-r", code, str(autoload), str(transport)], text=True,
+                                capture_output=True, timeout=20,
+                                env={key: value for key, value in os.environ.items() if key != "IMBOLG_LOCAL_CAPTURE"})
+        check(result.returncode == 0 and result.stdout == "OK", "Seznam From identita nebo bezpečné odmítnutí selhalo")
+        self.record("seznam-sender-config-to-reply-and-refusals-no-smtp")
+
     def test_browser_without_javascript(self) -> None:
         ARTIFACTS.mkdir(parents=True, exist_ok=True)
         with sync_playwright() as playwright:
@@ -335,6 +374,7 @@ def main() -> None:
         proof.test_missing_disabled_and_capture_failure()
         proof.test_rate_concurrency_and_cleanup()
         proof.test_capture_and_smtp_failure_boundaries_cli()
+        proof.test_seznam_sender_configuration_cli()
         proof.test_browser_without_javascript()
         ARTIFACTS.mkdir(parents=True, exist_ok=True)
         (ARTIFACTS / "results.json").write_text(json.dumps(proof.results, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

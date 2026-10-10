@@ -1,5 +1,7 @@
 # Schválený plán: Imbolg Harmony
 
+Aktuální stav k 2026-10-10: C1 DONE, C2 IN_PROGRESS na výslovný pokyn uživatele. Níže uvedený úvodní stav C1 BLOCKED/C2 TODO je historický text plánu ze 2026-10-07; autoritativní průběh a důkazy jsou v [STATUS](STATUS.md) a [WORKLOG](WORKLOG.md).
+
 Zadání a rozhodnutí: 2026-10-06, provozní volby upřesněné 2026-10-07. Plán popisuje celý projekt. Aktuální oprávnění a stav určují poslední zadání uživatele a [STATUS](STATUS.md). A1, veřejná A2, technická A3, veřejný obsah A4, lokální formulář A5, kontrola/předání A6, aplikace dodaného redesignu B1 a regresní kontrola B2 jsou dokončené. Verze B2-2026-10-07-ef779044 je technicky ověřená a výslovně schválená majitelkou prostřednictvím uživatele. C1 má skutečný účetní/DNS průzkum, veřejné kontakty a konkrétní MIGRATION pro ponechání domény u Webnode a Seznam SMTP. Správce/návrh soukromí a nový účet imbolg.harmony.formular@seznam.cz s DPAPI přístupem jsou připravené, skutečná místní šifrovaná záloha 3 074 souborů kompletně obnovená do oddělené složky a ověřená podle hashů a velikostí. C1 BLOCKED pouze na potvrzení DNS/editace po Standardu, C2 je TODO. Oprávnění k původním médiím uživatel potvrdil. Produkční SMTP a skutečné doručení neověřené. Původ návrhu od Claude potvrzuje uživatel, přesná varianta modelu v ZIP není doložená.
 
 ## Cíl a rozsah

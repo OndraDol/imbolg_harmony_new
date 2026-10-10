@@ -1,10 +1,10 @@
 # Imbolg Harmony
 
-## Aktuální postup C2 (2026-10-10)
+## Dokončená C2 (2026-10-10)
 
-C2 má dokončené přepnutí webových DNS, platné HTTPS pro apex i www a živý formulář. Finální public/private release má 239 souborů / 50 433 232 B; všechny byly nahrané přes FTPES a zpětně ověřené SHA-256. Deset HTTPS stránek bajtově souhlasí s releasem, HTTP a apex vedou na kanonické HTTPS www. Soukromá SMTP konfigurace je mimo DocumentRoot a je aktivní; skutečné doručení musí nyní ručně ověřit uživatel. Původní Webnode a pošta zůstávají pro návrat. Aktuální stav a důkazy jsou v [STATUS](docs/STATUS.md) a [WORKLOG](docs/WORKLOG.md).
+C2 je DONE: webové DNS směřuje na Gigaserver, HTTPS platí pro apex i www a formulář doručuje. Finální public/private release má 239 souborů / 50 433 232 B; všechny byly nahrané přes FTPES a zpětně ověřené SHA-256. Deset HTTPS stránek bajtově souhlasí s releasem, HTTP a apex vedou na kanonické HTTPS www. Soukromá SMTP konfigurace je mimo DocumentRoot; uživatel potvrdil skutečné doručení a správné Reply-To. Původní Webnode a pošta zůstávají nejméně sedm dní pro návrat. Aktuální stav a důkazy jsou v [STATUS](docs/STATUS.md) a [WORKLOG](docs/WORKLOG.md).
 
-Příprava úplné náhrady webu https://www.imbolg-harmony.cz/ a pozdějšího levného přesunu z Webnode. Obsah a současné menu jsou zachované; dodaný redesign od Claude je místně aplikovaný a ověřený.
+Projekt dokončil náhradu webové části https://www.imbolg-harmony.cz/ při ponechání domény a DNS u Webnode. Obsah a menu jsou zachované; dodaný redesign od Claude je nasazený a ověřený.
 
 ## Stav před zahájením C2 (2026-10-07)
 

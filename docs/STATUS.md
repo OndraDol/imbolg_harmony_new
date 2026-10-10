@@ -4,7 +4,7 @@ Poslední aktualizace: 2026-10-10. A1–C2 DONE. C2 dokončila webové DNS přep
 
 ## Rozsah aktuální relace
 
-Push UX úprav 2026-10-10: IN_PROGRESS na výslovný pokyn uživatele „Můžeš pushnout.“ Cílem je commit schválených změn a ověření origin/main. Nasazení na hosting není součástí tohoto kroku.
+Push UX úprav 2026-10-10: DONE na výslovný pokyn uživatele „Můžeš pushnout.“ Commit 8ce7af862fa80b909427ec91864655c621e76dc3 obsahuje všech 13 souborů schválených změn. Push na origin/main uspěl a čerstvý git ls-remote potvrdil shodný celý hash. Nasazení na hosting neproběhlo.
 
 Drobné UX úpravy 2026-10-10: DONE místně. Implementované jsou schválené uvozovky a názvy Služeb, čitelné kontaktní odkazy, WhatsApp +420 775 935 130, mapový a cenový odkaz, rozbalovací informace formuláře, mobilní menu, skryté hlavní nadpisy a galerijní dialog. Archiv, nezávislý obsahový základ, struktura, fotografie a jejich pořadí zůstávají zachované. npm run verify a npm run verify:browser prošly; finální browserový důkaz artifacts/a6/browser-results.json má identitu 9fce073f789845fb2f985465308395fd89cecef80996ea45beb7447c00a5ee82, 8/8 skupin, 160 kontrol stránek a 16 místních formulářových scénářů. Cílená kontrola galerie, klávesnice, 200% zvětšení a režimu bez JS i sedm negativních obsahových zkoušek prošly (artifacts/ux-20261010). Bez push, nasazení a skutečných zpráv. Dvě ignorované dočasné testovací složky zůstaly po zamítnutí úklidu automatickou kontrolou; funkčnost neomezují. Objednaný rozsah je dokončený; případné zveřejnění vyžaduje samostatné zadání. Souběžné provozní záznamy níže zůstávají zachované.
 

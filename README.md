@@ -1,5 +1,9 @@
 # Imbolg Harmony
 
+## Nasazené UX úpravy (2026-10-10)
+
+Na https://www.imbolg-harmony.cz/ jsou nasazené schválené drobné úpravy: kontaktní odkazy a WhatsApp, názvy Služeb, přístupnější formulář/menu/nadpisy a fotografický dialog. Deset stránek, menu, URL a média zůstávají zachované. Rozdílový upload 14 souborů má zpětnou hashovou kontrolu; veřejné HTTPS i Chrome na mobilu a desktopu prošly včetně galerie a režimu bez JS. Předchozí soubory jsou místně zálohované. Aktuální důkazy a rozsah jsou v [STATUS](docs/STATUS.md); následující C2 popisuje původní nasazení.
+
 ## Dokončená C2 (2026-10-10)
 
 C2 je DONE: webové DNS směřuje na Gigaserver, HTTPS platí pro apex i www a formulář doručuje. Finální public/private release má 239 souborů / 50 433 232 B; všechny byly nahrané přes FTPES a zpětně ověřené SHA-256. Deset HTTPS stránek bajtově souhlasí s releasem, HTTP a apex vedou na kanonické HTTPS www. Soukromá SMTP konfigurace je mimo DocumentRoot; uživatel potvrdil skutečné doručení a správné Reply-To. Původní Webnode a pošta zůstávají nejméně sedm dní pro návrat. Aktuální stav a důkazy jsou v [STATUS](docs/STATUS.md) a [WORKLOG](docs/WORKLOG.md).

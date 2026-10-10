@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import re
@@ -31,6 +32,18 @@ APPROVED_TEXT_CHANGES = {
         "after": "BZ: 5x I. cena, CACT, res.CACT, Klubový vítěz\u00a0",
     },
 }
+
+# User-approved C2 notice is an addition inside the existing form, not a
+# replacement for independent A2 page evidence.
+APPROVED_FORM_NOTICE = (
+    "Správcem údajů z formuláře je Markéta Kunešová, Myslbekova 559, 407 21 Česká Kamenice, kontakt kralovamarket@seznam.cz. "
+    "Jméno, e-mail a případnou zprávu použijeme k vyřízení vašeho dotazu. "
+    "U poptávky koupě nebo služby jde o přípravu případné smlouvy na vaši žádost; u obecných dotazů o náš oprávněný zájem odpovědět na vámi zahájenou komunikaci. "
+    "Formulář používá hosting Gigaserver a poštovní službu Seznam. "
+    "Běžnou uzavřenou komunikaci uchováme nejdéle šest měsíců od vyřízení, poté ji odstraníme; pro zprávy potřebné ke smlouvě, zákonným povinnostem nebo konkrétnímu nároku platí odpovídající samostatný účel. "
+    "Na uvedeném kontaktu můžete uplatnit svá práva na přístup, opravu, výmaz či omezení a podle podmínek zpracování přenositelnost nebo námitku. "
+    "Můžete se také obrátit na Úřad pro ochranu osobních údajů."
+)
 
 
 def check(condition: bool, message: str) -> None:
@@ -147,7 +160,21 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
 
     original_main = BeautifulSoup((ROOT / Path(page["archive"]["rendered_dom"])).read_text(encoding="utf-8"), "html.parser").find("main")
     target_main = approved_expected_text(original_main.get_text(" "), list(changes.values()), route)
-    check(norm(main.get_text(" ")) == target_main,
+    main_without_notice = copy.deepcopy(main)
+    notices = main_without_notice.select(".form-privacy")
+    check(len(notices) == (1 if route == "/" else 0), f"{route}: nesprávný počet informací u formuláře.")
+    if route == "/" and len(notices) == 1:
+        notice = notices[0]
+        form = notice.find_parent("form")
+        check(form is not None and form.get("action") == "/api/contact.php"
+              and notice.find_next_sibling("button") is not None,
+              "Úvod: informace není před tlačítkem kontaktního formuláře.")
+        check(len(notice.find_all("p", recursive=False)) == 2
+              and norm(notice.get_text(" ")) == norm(APPROVED_FORM_NOTICE),
+              "Úvod: informace u formuláře není přesné schválené znění.")
+    for notice in notices:
+        notice.decompose()
+    check(norm(main_without_notice.get_text(" ")) == target_main,
           f"{route}: celkový viditelný text main se liší od A2.")
     expected_images = page["image_occurrences"]
     actual_images = soup.select("img[data-media-order]")

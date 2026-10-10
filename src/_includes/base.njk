@@ -11,11 +11,15 @@
   <meta name="robots" content="noindex">
   {% endif %}
   <link rel="stylesheet" href="/assets/css/site.css">
+  <script src="/assets/js/gallery.js" defer></script>
 </head>
 <body{% if currentPage %} data-page="{{ currentPage.id }}"{% endif %}>
   <a class="skip-link" href="#hlavni-obsah">Přejít na hlavní obsah</a>
   {% include "header.njk" %}
   <main id="hlavni-obsah" class="site-main" tabindex="-1" aria-label="{{ title }}">
+    {% if currentPage and currentPage.id in ["home", "sluzby", "feny", "psi"] %}
+    <h1 class="visually-hidden" data-ux-addition="page-heading">{% if currentPage.id == "home" %}Imbolg Harmony{% else %}{{ currentPage.label }}{% endif %}</h1>
+    {% endif %}
     {{ content | safe }}
   </main>
   {% include "footer.njk" %}

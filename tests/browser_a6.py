@@ -61,6 +61,7 @@ def semantics(page, label):
       if(new Set(ids).size!==ids.length) errors.push('duplicate IDs');
       if(document.documentElement.lang!=='cs') errors.push('language');
       if(document.querySelectorAll('main').length!==1) errors.push('main landmark');
+      if(document.querySelectorAll('main h1').length!==1) errors.push('main heading');
       for(const img of document.images) if(!img.hasAttribute('alt')) errors.push('missing alt');
       for(const frame of document.querySelectorAll('iframe')) if(!frame.title) errors.push('iframe title');
       for(const a of document.querySelectorAll('a')) {
@@ -100,6 +101,43 @@ def keyboard_menu(page, label):
         check(page.locator('.desktop-nav a').count() == 10, f'{label}: desktop menu')
 
 
+def check_lightbox(page, opener, href, label):
+    dialog = page.locator('dialog.lightbox[open]')
+    dialog.wait_for(state='visible')
+    image = dialog.locator('img')
+    page.wait_for_function('document.querySelector(".lightbox__image").complete && document.querySelector(".lightbox__image").naturalWidth > 0')
+    check(image.get_attribute('src').endswith(href), label + ': correct lightbox image')
+    check(image.evaluate('e=>getComputedStyle(e).objectFit') == 'contain', label + ': full uncropped image')
+    group_id = opener.get_attribute('data-gallery-id')
+    members = page.locator(f'a[data-gallery-id="{group_id}"]') if group_id else None
+    if members and members.count() > 1:
+        page.keyboard.press('ArrowRight')
+        check(image.get_attribute('src').endswith(members.nth(1).get_attribute('href')), label + ': next photo in order')
+        page.keyboard.press('ArrowLeft')
+        check(image.get_attribute('src').endswith(href), label + ': previous photo')
+    else:
+        check(dialog.locator('.lightbox__next').is_disabled(), label + ': standalone photo')
+    check(dialog.locator('.lightbox__original').get_attribute('href').endswith(href), label + ': original link')
+    page.screenshot(path=str(ART / f'lightbox-{label}.png'), full_page=False)
+    page.keyboard.press('Escape')
+    page.locator('dialog.lightbox').wait_for(state='hidden')
+    page.wait_for_function('(selector)=>document.querySelector(selector)===document.activeElement', arg=f'a[href="{href}"]')
+    check(opener.evaluate('e=>e===document.activeElement'), label + ': lightbox restores focus')
+
+
+def check_privacy(page, label):
+    privacy = page.locator('.form-privacy')
+    check(privacy.get_attribute('open') is None, label + ': privacy initially closed')
+    check(page.locator('button[type=submit]').inner_text() == 'Odeslat zprávu', label + ': submit label')
+    summary = privacy.locator('summary')
+    summary.focus()
+    page.keyboard.press('Enter')
+    check(privacy.get_attribute('open') is not None and privacy.locator('p').first.is_visible(), label + ': privacy keyboard expand')
+    geometry(page, label + '-privacy-open')
+    page.keyboard.press('Enter')
+    check(privacy.get_attribute('open') is None, label + ': privacy collapse')
+
+
 def metadata_and_links(fixture):
     count = 0
     root = fixture / 'public'
@@ -123,7 +161,7 @@ def metadata_and_links(fixture):
                 target_soup = BeautifulSoup(target.read_text(encoding='utf-8'), 'html.parser')
                 check(target_soup.find(id=unquote(url.fragment)) is not None, f'broken fragment {anchor["href"]}')
             count += 1
-        check(not soup.find('script'), 'unexpected script/tracking')
+        check([str(s) for s in soup.find_all('script')] == ['<script defer="" src="/assets/js/gallery.js"></script>'], 'unexpected script/tracking')
     tree = ET.parse(root / 'sitemap.xml')
     locations = [e.text for e in tree.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     check(locations == [s['canonical'] for s in PAGES], 'sitemap mismatch')
@@ -178,6 +216,8 @@ def run(base, fixture, result, widths=WIDTHS, js_modes=(True, False)):
                         check(page.locator('[data-content-id]').count() == len(source['text_nodes']), label + ': node count')
                         semantics(page, label)
                         geometry(page, label)
+                        if source['path'] == '/':
+                            check_privacy(page, label)
                         keyboard_menu(page, label)
                         images = page.locator('img[data-media-id]')
                         for i in range(images.count()):
@@ -203,12 +243,14 @@ def run(base, fixture, result, widths=WIDTHS, js_modes=(True, False)):
                             href = gallery.first.get_attribute('href')
                             gallery.first.focus()
                             page.keyboard.press('Enter')
-                            page.wait_for_url(base + href)
-                            check(page.locator('img').evaluate('e=>e.complete&&e.naturalWidth>0'), label + ': keyboard full image')
-                            page.go_back(wait_until='networkidle')
+                            if js:
+                                check_lightbox(page, gallery.first, href, label)
+                            else:
+                                page.wait_for_url(base + href)
+                                check(page.locator('img').evaluate('e=>e.complete&&e.naturalWidth>0'), label + ': keyboard full image')
+                                page.go_back(wait_until='networkidle')
                             check(page.title() == source['title'] and gallery.first.is_visible(), label + ': back to gallery')
-                            # Native image navigation is not a lightbox. Browser Back need not
-                            # restore activeElement; returned links must remain focusable.
+                            # Without JS Browser Back need not restore focus; links stay focusable.
                             gallery.first.focus()
                             check(gallery.first.evaluate('e=>e===document.activeElement'), label + ': gallery focusable after Back')
                             check(gallery.first.evaluate('e=>e.getBoundingClientRect().height>=e.querySelector("img").getBoundingClientRect().height'),
@@ -222,6 +264,8 @@ def run(base, fixture, result, widths=WIDTHS, js_modes=(True, False)):
                                 sheet = page.add_style_tag(content=css)
                                 geometry(page, label + '-' + mode)
                                 semantics(page, label + '-' + mode)
+                                if source['path'] == '/':
+                                    check_privacy(page, label + '-' + mode)
                                 keyboard_menu(page, label + '-' + mode)
                                 # Actual text-size enlargement must be 32px or larger for body.
                                 if mode == 'text200':
@@ -249,6 +293,7 @@ def run(base, fixture, result, widths=WIDTHS, js_modes=(True, False)):
                             check(page.evaluate('parseFloat(getComputedStyle(document.body).fontSize)>=32'), 'form error text not enlarged')
                         semantics(page, 'form-error')
                         geometry(page, 'form-error')
+                        check_privacy(page, 'form-error')
                         page.screenshot(path=str(ART / f'form-error-{width}-js{int(js)}-{mode}.png'), full_page=True)
                         page.locator('#contact-name').focus()
                         page.locator('#contact-name').fill('A6 Kontrola')
@@ -286,7 +331,8 @@ def run(base, fixture, result, widths=WIDTHS, js_modes=(True, False)):
             allowed = {e['url'] for s in PAGES for e in s['embedded_resources'] if e['kind']=='iframe'}
             check(set(result['external_requests']) <= allowed, 'unexpected remote request/tracking')
             result['external_requests_unique'] = sorted(set(result['external_requests']))
-            result['lightbox'] = 'N/A: native full-image navigation; Enter opens, browser Back returns and links remain focusable. Native Back activeElement restoration is not guaranteed. No modal/Escape handler.'
+            result['lightbox'] = ('PASS: native dialog, ordered arrow navigation, Escape and focus restoration.'
+                                  if all(js_modes) else 'PASS: without JavaScript, original full-image links and browser Back remain usable.')
         finally:
             # Preserve a primary failure; driver loss during cleanup must not replace it.
             if browser.is_connected():

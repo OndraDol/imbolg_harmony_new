@@ -16,7 +16,7 @@ const sourcePaths = sourcePages.map(page => page.path);
 const targetPaths = sitePages.map(page => page.path);
 expect(JSON.stringify(targetPaths) === JSON.stringify(sourcePaths), "URL nebo jejich pořadí nesouhlasí se zdrojovým archivem.");
 
-const allowedFiles = new Set(["assets/css/site.css", "404.html", "sitemap.xml", "robots.txt", ".htaccess"]);
+const allowedFiles = new Set(["assets/css/site.css", "assets/js/gallery.js", "404.html", "sitemap.xml", "robots.txt", ".htaccess"]);
 for (const medium of sourceMedia) {
   const stem = `assets/images/${medium.id}`;
   if (medium.selected_original.format === "SVG") allowedFiles.add(`${stem}.svg`);
@@ -37,6 +37,8 @@ for (const [index, page] of sitePages.entries()) {
   try { html = readFileSync(path.join(dist, output), "utf8"); }
   catch { errors.push(`${page.path}: chybí HTML výstup.`); continue; }
   expect(html.includes('<html lang="cs">'), `${page.path}: chybí lang=cs.`);
+  const scripts = [...html.matchAll(/<script\b[^>]*>[\s\S]*?<\/script>/g)].map(match => match[0]);
+  expect(JSON.stringify(scripts) === JSON.stringify(['<script src="/assets/js/gallery.js" defer></script>']), `${page.path}: nečekaný skript.`);
   expect(html.includes('<meta charset="utf-8">'), `${page.path}: chybí UTF-8.`);
   expect(html.includes('name="viewport"'), `${page.path}: chybí viewport.`);
   expect(html.includes(`<title>${page.title}</title>`), `${page.path}: nesouhlasí title.`);

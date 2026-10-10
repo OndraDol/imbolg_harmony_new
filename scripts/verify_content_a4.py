@@ -33,6 +33,45 @@ APPROVED_TEXT_CHANGES = {
     },
 }
 
+# Exact user-approved UX text changes, 2026-10-10. A2 stays immutable.
+APPROVED_TEXT_CHANGES.update({'home-node-003': {'path': '/',
+                   'block_id': 'home-block-002',
+                   'before': '"Péče o beagle"',
+                   'after': 'Péče o beagle'},
+ 'home-node-005': {'path': '/',
+                   'block_id': 'home-block-004',
+                   'before': '"Výcvik pro beagly"',
+                   'after': 'Výcvik pro beagly'},
+ 'home-node-006': {'path': '/',
+                   'block_id': 'home-block-004',
+                   'before': '"Péče o plemeno"',
+                   'after': 'Péče o plemeno'},
+ 'home-node-007': {'path': '/',
+                   'block_id': 'home-block-004',
+                   'before': '"Poradenství pro nové majitele"',
+                   'after': 'Poradenství pro nové majitele'},
+ 'home-node-018': {'path': '/', 'block_id': None, 'before': 'Odeslat', 'after': 'Odeslat zprávu'},
+ 'home-node-020': {'path': '/',
+                   'block_id': None,
+                   'before': 'www.facebook.com/profile.php?id=61571597523226',
+                   'after': 'Imbolg Harmony na Facebooku'},
+ 'sluzby-node-001': {'path': '/sluzby/',
+                     'block_id': 'sluzby-block-001',
+                     'before': '"Výcvik pro beagly"',
+                     'after': 'Chov a péče o beagle'},
+ 'sluzby-node-003': {'path': '/sluzby/',
+                     'block_id': 'sluzby-block-003',
+                     'before': '"Péče o plemeno"',
+                     'after': 'Výcvik pro beagly'},
+ 'sluzby-node-005': {'path': '/sluzby/',
+                     'block_id': 'sluzby-block-005',
+                     'before': '"Poradenství pro nové majitele"',
+                     'after': 'Péče o plemeno'},
+ 'kontakt-node-008': {'path': '/kontakt/',
+                      'block_id': 'kontakt-block-005',
+                      'before': 'https://www.facebook.com/profile.php?id=61571597523226',
+                      'after': 'Imbolg Harmony na Facebooku'}})
+
 # User-approved C2 notice is an addition inside the existing form, not a
 # replacement for independent A2 page evidence.
 APPROVED_FORM_NOTICE = (
@@ -58,6 +97,34 @@ def hash_of(path: Path) -> str:
 def norm(value: str) -> str:
     return re.sub(r"\s+", " ", value.replace("\u00a0", " ")).strip()
 
+
+
+def verify_ux_additions(main, route):
+    """Validate each exact addition and its location before comparing unchanged A2 text."""
+    expected = {}
+    headings = {"/": "Imbolg Harmony", "/sluzby/": "Služby", "/feny/": "Feny", "/psi/": "Psi"}
+    if route in headings:
+        expected["page-heading"] = (f'<h1 class="visually-hidden" data-ux-addition="page-heading">{headings[route]}</h1>', "main")
+    wa = 'href="https://wa.me/420775935130">Napsat na WhatsApp</a>'
+    if route == "/":
+        expected["home-whatsapp"] = ('<a class="contact-action" data-ux-addition="home-whatsapp" '+wa, '[data-block-id="home-block-009"]')
+        expected["form-intro"] = ('<p data-ux-addition="form-intro">Údaje z formuláře použijeme k vyřízení vašeho dotazu.</p>', 'form.contact-form')
+        expected["form-summary"] = ('<summary data-ux-addition="form-summary">Informace o zpracování údajů</summary>', 'details.form-privacy')
+    if route == "/kontakt/":
+        expected["contact-whatsapp"] = ('<a class="contact-action" data-ux-addition="contact-whatsapp" '+wa, '[data-block-id="kontakt-block-003"]')
+        expected["contact-map"] = ('<a class="contact-action" data-ux-addition="contact-map" href="https://www.google.com/maps/search/?api=1&amp;query=Myslbekova%20559%2C%20407%2021%20%C4%8Cesk%C3%A1%20Kamenice">Otevřít v mapách</a>', '[data-block-id="kontakt-block-002"]')
+    if route == "/cenik/":
+        expected["price-contact"] = ('<a class="contact-action" data-ux-addition="price-contact" href="/kontakt/">Domluvit cenu</a>', '[data-block-id="cenik-block-003"]')
+    actual = main.select("[data-ux-addition]")
+    check(sorted(n["data-ux-addition"] for n in actual) == sorted(expected), f"{route}: nesprávné UX doplňky.")
+    for node in actual:
+        item = expected.get(node["data-ux-addition"])
+        if item:
+            markup, parent = item
+            check(str(node) == str(BeautifulSoup(markup, "html.parser").find()), f"{route}: změněný UX doplněk {node['data-ux-addition']}.")
+            container = main if parent == "main" else main.select_one(parent)
+            check(node.parent is container, f"{route}: chybné umístění UX doplňku {node['data-ux-addition']}.")
+        node.decompose()
 
 def approved_expected_text(value: str, changes: list[dict], label: str) -> str:
     """Apply exact changes to expected text only, rejecting a changed baseline."""
@@ -134,6 +201,7 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
     check(mapped.get("source_page_id") == page["id"] and mapped.get("target_path") == route,
           f"{route}: chybná mapa stránky.")
     check(len(mapped.get("text_nodes", [])) == len(page["text_nodes"]), f"{route}: mapa textových uzlů není úplná.")
+    verify_ux_additions(main, route)
     actual_nodes = main.select("[data-content-id]")
     expected_ids = [n["id"] for n in page["text_nodes"]]
     changes = {node_id: change for node_id, change in APPROVED_TEXT_CHANGES.items()
@@ -142,7 +210,7 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
         source_nodes = [n for n in page["text_nodes"] if n["id"] == node_id]
         check(len(source_nodes) == 1 and source_nodes[0]["raw_text"] == change["before"],
               f"{node_id}: původní text schválené změny neodpovídá A2.")
-        check(sum(b["id"] == change["block_id"] for b in page["content_blocks"]) == 1,
+        check(sum(b["id"] == change["block_id"] for b in page["content_blocks"]) == (1 if change["block_id"] else 0),
               f"{node_id}: původní blok schválené změny není jednoznačný.")
     check([n.get("data-content-id") for n in actual_nodes] == expected_ids,
           f"{route}: textové uzly chybí nebo mají jiné pořadí.")
@@ -169,6 +237,8 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
         check(form is not None and form.get("action") == "/api/contact.php"
               and notice.find_next_sibling("button") is not None,
               "Úvod: informace není před tlačítkem kontaktního formuláře.")
+        check(notice.name == "details" and notice.attrs == {"class": ["form-privacy"]},
+              "Informace musí být dostupné nativní zavřené details bez skrytí.")
         check(len(notice.find_all("p", recursive=False)) == 2
               and norm(notice.get_text(" ")) == norm(APPROVED_FORM_NOTICE),
               "Úvod: informace u formuláře není přesné schválené znění.")
@@ -205,7 +275,8 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
     for anchor, source in zip(actual_main_links, expected_main_links):
         target = expected_href(source["href"], media_by_url)
         check(anchor.get("href") == target, f"{route}: odkaz #{source['order']} má jiný cíl.")
-        check(norm(anchor.get_text(" ")) == norm(source["text"]),
+        link_changes = [c for c in changes.values() if norm(c["before"]) == norm(source["text"])]
+        check(norm(anchor.get_text(" ")) == approved_expected_text(source["text"], link_changes, f"link {source['order']}"),
               f"{route}: odkaz #{source['order']} má jiný text.")
 
     mapped_links = mapped.get("links", [])

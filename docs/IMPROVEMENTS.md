@@ -2,6 +2,12 @@
 
 Návrh není schválení změny. Při A4 i B1 texty zůstávají doslovné. A2 doplní konkrétní ID a citace sporných bloků.
 
+## Schválené UX úpravy 2026-10-10
+
+DONE místně: celý níže uvedený rozsah implementovaný a ověřený. npm run verify a npm run verify:browser PASS; cílené kontroly galerie a sedm negativních obsahových zkoušek PASS. Důkazy: artifacts/a6/browser-results.json a artifacts/ux-20261010. Push ani nasazení nebyly součástí práce.
+
+Uživatel výslovně objednal odstranění sedmi párů nadbytečných uvozovek, názvy Služeb „Chov a péče o beagle“, „Výcvik pro beagly“, „Péče o plemeno“, čitelný Facebook na úvodu a v Kontaktu, WhatsApp na potvrzené číslo +420 775 935 130 u formuláře a telefonu, mapový odkaz a „Domluvit cenu“ v Ceníku. Schválil také rozbalovací plné znění informace o údajích s krátkým úvodem, „Odeslat zprávu“, ukazatel mobilního Menu, skryté h1 na čtyřech stránkách a lokální galerijní dialog s klávesnicí a fallbackem bez JS. Původní archiv, ostatní text, média, URL a struktura zůstávají zachované; žádný push ani nasazení. Stav implementace a důkazy určuje STATUS/WORKLOG. Dřívější návrhy níže jsou tím schválené pouze v tomto přesném rozsahu.
+
 ## Dodatečně schválené připomínky 2026-10-07
 
 Uživatel výslovně objednal realizaci připomínek majitelky včetně GitHub Pages: celá obdélníková fotografie v záhlaví široká 112 px, odstranění čáry nad zdravotními testy Amy a přesná obsahová změna feny-node-010 z „BZ: 4x I. cena, CACT, res.CACT, Klubový vítěz“ na „BZ: 5x I. cena, CACT, res.CACT, Klubový vítěz“. Původní A2 archiv/evidence se nemění; jednotlivá odchylka je kontrolovaná ve verify_content_a4.py. Stav implementace a důkazy určuje STATUS/WORKLOG. Ostatní návrhy níže tím nejsou schválené.

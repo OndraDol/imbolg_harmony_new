@@ -2,6 +2,10 @@
 
 Návrh není schválení změny. Při A4 i B1 texty zůstávají doslovné. A2 doplní konkrétní ID a citace sporných bloků.
 
+## Schválená patička 2026-10-11
+
+Uživatel výslovně objednal odstranění obecného „Obrázky poskytl Pexels“, copyright chovatelské stanice pro rok 2026 a push na main i do produkce. Přesné nové znění společné patičky je „© 2026 Chovatelská stanice Imbolg Harmony“. Nahrazení obecného kreditu je autorizovaná odchylka na všech deseti obsahových URL a společné 404; neměnná evidence A2 ani původ/kredity jednotlivých fotografií se nepřepisují a copyright stanice není tvrzení o autorství každého snímku. Mapa zdroj → cíl zachovává původní Pexels odkazy s explicitní autorizovanou výlukou; obsahová kontrola ověřuje nové přesné znění i nepřítomnost starého kreditu. Aktuální stav a důkazy nasazení určuje STATUS/WORKLOG.
+
 ## Schválené UX úpravy 2026-10-10
 
 Následné samostatné zadání „Chci to i na hosting“: DONE, úpravy jsou od 2026-10-10 nasazené na kanonické doméně. Čtrnáct souborů ověřeno po FTPES uploadu, veřejné HTTPS a 20 browserových kontrol PASS; podrobnosti a záloha předchozích souborů v artifacts/ux-20261010/hosting. Předchozí omezení níže popisuje původní místní zadání.

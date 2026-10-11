@@ -283,13 +283,20 @@ def verify_page(page: dict, mapped: dict, dist: Path, media_by_id: dict, media_b
     check(len(mapped_links) == len(page["links"]), f"{route}: mapa odkazů není úplná.")
     for link, source in zip(mapped_links, page["links"]):
         excluded = not source["in_main"] and source["href"] == "#"
+        # User explicitly removed the shared Pexels credit on 2026-10-11.
+        removed_credit = not source["in_main"] and source["href"] == "https://pexels.com"
         check(link.get("source_href") == source["href"] and link.get("source_order") == source["order"],
               f"{route}: mapa odkazu #{source['order']} neodpovídá A2.")
         check(link.get("excluded_technical") == excluded, f"{route}: chybná výluka odkazu #{source['order']}.")
-        check(link.get("target_href") == (None if excluded else expected_href(source["href"], media_by_url)),
+        check(link.get("approved_removed", False) == removed_credit,
+              f"{route}: chybná autorizovaná výluka odkazu #{source['order']}.")
+        check(link.get("target_href") == (None if excluded or removed_credit else expected_href(source["href"], media_by_url)),
               f"{route}: mapa cíle odkazu #{source['order']} nesouhlasí.")
-    pexels = soup.select('footer a[href="https://pexels.com"]')
-    check(len(pexels) == 1 and norm(pexels[0].get_text()) == "Pexels", f"{route}: chybí původní kredit Pexels.")
+    footers = soup.select("footer.site-footer")
+    check(len(footers) == 1 and norm(footers[0].get_text(" ")) == "© 2026 Chovatelská stanice Imbolg Harmony",
+          f"{route}: patička neodpovídá znění schválenému 2026-10-11.")
+    check(not soup.select('a[href*="pexels.com"]') and "Obrázky poskytl" not in soup.get_text(" "),
+          f"{route}: zůstal odstraněný obecný kredit Pexels.")
     for anchor in soup.select("a[href]"):
         href = anchor["href"]
         if not href.startswith("/"):
